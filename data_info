@@ -1,0 +1,61 @@
+o_train.columns:
+Index(['UID', 'day', 'mode', 'success', 'time', 'os', 'version', 'device1',
+       'device2', 'device_code1', 'device_code2', 'device_code3', 'mac1',
+       'mac2', 'ip1', 'ip2', 'wifi', 'geo_code', 'ip1_sub', 'ip2_sub'],
+      dtype='object')
+
+
+      count:'day','time'
+      sum:'success'
+      unique:'mode','os','version','device1','device2','device_code1', 'device_code2', 'device_code3', 'mac1',
+       'mac2', 'ip1', 'ip2', 'wifi', 'geo_code', 'ip1_sub', 'ip2_sub'
+
+o_train['success']=o_train['success'].astype(np.float)
+df_otrain_user=o_train.groupby('UID').agg(
+    {'day':'count','success':'sum','mac1':'nunique','mac2':'nunique',
+     'geo_code':'nunique','ip1_sub':'nunique','ip2_sub':'nunique'
+     })
+############################################################
+t_train.columns:
+Index(['UID', 'channel', 'day', 'time', 'trans_amt', 'amt_src1', 'merchant',
+       'code1', 'code2', 'trans_type1', 'acc_id1', 'device_code1',
+       'device_code2', 'device_code3', 'device1', 'device2', 'mac1', 'ip1',
+       'bal', 'amt_src2', 'acc_id2', 'acc_id3', 'geo_code', 'trans_type2',
+       'market_code', 'market_type', 'ip1_sub'],
+      dtype='object')
+
+
+      count:'day','time'
+      sum:'trans_amt','bal'
+      nunique:'channel',   'amt_src1', 'merchant',
+       'code1', 'code2', 'trans_type1', 'acc_id1', 'device_code1',
+       'device_code2', 'device_code3', 'device1', 'device2', 'mac1', 'ip1',
+        'amt_src2', 'acc_id2', 'acc_id3', 'geo_code', 'trans_type2',
+       'market_code', 'market_type', 'ip1_sub'
+
+
+
+
+
+
+
+t_train[['trans_amt','bal']]=t_train[['trans_amt','bal']].astype(np.float)
+df_ttrain_user=t_train.groupby('UID').agg(
+    {'day':'count','channel':'nunique','trans_amt':'sum','bal':'sum',
+     'amt_src1':'nunique','trans_type1':'nunique','acc_id1':'nunique',
+     'mac1':'nunique','ip1_sub':'nunique','geo_code':'nunique'})
+
+############################################################
+o_test.columns:
+Index(['UID', 'day', 'mode', 'success', 'time', 'os', 'version', 'device1',
+       'device2', 'device_code1', 'device_code2', 'device_code3', 'mac1',
+       'mac2', 'ip1', 'ip2', 'wifi', 'geo_code', 'ip1_sub', 'ip2_sub'],
+      dtype='object')
+
+t_test.columns
+Index(['UID', 'channel', 'day', 'time', 'trans_amt', 'amt_src1', 'merchant',
+       'code1', 'code2', 'trans_type1', 'acc_id1', 'device_code1',
+       'device_code2', 'device_code3', 'device1', 'device2', 'mac1', 'ip1',
+       'bal', 'amt_src2', 'acc_id2', 'acc_id3', 'geo_code', 'trans_type2',
+       'market_code', 'market_type', 'ip1_sub'],
+      dtype='object')
