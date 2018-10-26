@@ -50,8 +50,8 @@ train=pd.read_csv('train.csv')
 # #填充缺失值
 
 #不填充时效果好，0.987945148966871
-# test=test.fillna(-1)
-# train=train.fillna(-1)
+test=test.fillna(-1)
+train=train.fillna(-1)
 
 print(train.info())
 
@@ -63,29 +63,30 @@ X_loc_train = train.drop(['UID','Tag'],axis=1)
 
 X_loc_test = test.drop('UID',axis=1)
 
-# #特征选择
-# print('开始特征选择')
-# t1=time.time()
-# # # lgb.LGBMClassifier()
-# # feature_select=RFE(estimator=RandomForestClassifier(n_estimators=500,
-# #                  criterion="gini",
-# #                  max_depth=8,
-# #                  min_samples_split=2,
-# #                  min_samples_leaf=1,
-# #                  min_weight_fraction_leaf=0.,
-# #                  max_features="auto",
-# #                  max_leaf_nodes=None,
-# #                  min_impurity_split=1e-7,
-# #                  bootstrap=True,
-# #                  oob_score=False,
-# #                  n_jobs=-1,
-# #                  random_state=None,
-# #                  verbose=0,
-# #                  warm_start=False,
-# #                  class_weight=None), n_features_to_select=int(X_loc_train.shape[1] * 0.95))
-# # feature_select.fit(X_loc_train, y_loc_train)
-# # X_loc_train = feature_select.transform(X_loc_train)
-# # X_loc_test = feature_select.transform(X_loc_test)
+#特征选择
+print('开始特征选择')
+t1=time.time()
+# lgb.LGBMClassifier()
+feature_select=RFE(estimator=RandomForestClassifier(n_estimators=500,
+                 criterion="gini",
+                 max_depth=8,
+                 min_samples_split=2,
+                 min_samples_leaf=1,
+                 min_weight_fraction_leaf=0.,
+                 max_features="auto",
+                 max_leaf_nodes=None,
+                 min_impurity_split=1e-7,
+                 bootstrap=True,
+                 oob_score=False,
+                 n_jobs=-1,
+                 random_state=None,
+                 verbose=0,
+                 warm_start=False,
+                 class_weight=None), n_features_to_select=int(X_loc_train.shape[1] * 0.70))
+feature_select.fit(X_loc_train, y_loc_train)
+X_loc_train = feature_select.transform(X_loc_train)
+X_loc_test = feature_select.transform(X_loc_test)
+
 # ig=IG(X_loc_train, y_loc_train)
 # info_gain=ig.getIG()
 # print(sorted(info_gain,reverse=True))
@@ -99,8 +100,8 @@ X_loc_test = test.drop('UID',axis=1)
 # print('特征选择结束,耗时{}'.format(t2-t1))
 # print('特征选择后shape',X_loc_train.shape )
 
-X_loc_train = X_loc_train.values
-X_loc_test = X_loc_test.values
+# X_loc_train = X_loc_train.values
+# X_loc_test = X_loc_test.values
 
 if __name__=='__main__':
 
