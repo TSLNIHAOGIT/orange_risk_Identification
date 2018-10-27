@@ -42,6 +42,27 @@ def tpr_weight_funtion2(y_true,y_predict):
     TR3 = pCumsumPer[abs(nCumsumPer-0.01).idxmin()]
     return -(0.4 * TR1 + 0.3 * TR2 + 0.3 * TR3)
 
+def metric_scores_self(estimator, X, y_true):
+    y_pred = estimator.predict_proba(X)[:, 1]#, ntree_limit=estimator.best_ntree_limit
+    d = pd.DataFrame()
+    d['prob'] = list(y_pred)
+    d['y'] = list(y_true)
+    d = d.sort_values(['prob'], ascending=[0])
+    y = d.y
+    # 要将series转为list否则会报错
+    PosAll = list(pd.Series(y).value_counts())[1]
+    NegAll = list(pd.Series(y).value_counts())[0]
+    pCumsum = d['y'].cumsum()
+    nCumsum = np.arange(len(y)) - pCumsum + 1
+    pCumsumPer = pCumsum / PosAll
+    nCumsumPer = nCumsum / NegAll
+    TR1 = pCumsumPer[abs(nCumsumPer - 0.001).idxmin()]
+    TR2 = pCumsumPer[abs(nCumsumPer - 0.005).idxmin()]
+    TR3 = pCumsumPer[abs(nCumsumPer - 0.01).idxmin()]
+    return -(0.4 * TR1 + 0.3 * TR2 + 0.3 * TR3)
+
+
+
 
 def metric_self(y_true, y_pred,sample_weight=None):
     # print('y_true',y_true)

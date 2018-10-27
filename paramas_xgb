@@ -1,0 +1,6084 @@
+/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6 /Users/ozintel/Downloads/Tsl_python_progect/local_ml/tianchi_competition/orange_risk_Identification/parameter_tuning.py
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+colsample_bytree 0.9644735130151051
+gamma 0.5034517580014662
+learning_rate 0.7146633774246076
+max_depth 2
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.1251707234899891
+subsample 0.77123832654594
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.7375611271831136
+colsample_bytree 0.988844236703834
+gamma 0.5016549153671123
+learning_rate 0.8402540518835799
+max_depth 1
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.026530787661597208
+subsample 0.7908136375408424
+
+******************************
+
+metric 0.5807112396871317
+colsample_bytree 0.9922861357871052
+gamma 0.058826920402179794
+learning_rate 0.8809923447249972
+max_depth 1
+min_child_weight 5
+num_parallel_tree 4
+reg_lambda 0.011879567000414577
+subsample 0.955428831738842
+
+******************************
+
+metric 0.5831348976749171
+colsample_bytree 0.6390742341972087
+gamma 0.9286015122493123
+learning_rate 0.018959176036460246
+max_depth 10
+min_child_weight 2
+num_parallel_tree 1
+reg_lambda 0.9386690819441765
+subsample 0.5003324611718278
+
+******************************
+
+metric 0.781523197257045
+colsample_bytree 0.812234731120372
+gamma 0.437027576443873
+learning_rate 0.25962756235845186
+max_depth 6
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.506092911186646
+subsample 0.5606450725753914
+
+******************************
+
+metric 0.724835744133719
+colsample_bytree 0.840520258768914
+gamma 0.8240675456227087
+learning_rate 0.4664570072235874
+max_depth 4
+min_child_weight 3
+num_parallel_tree 3
+reg_lambda 0.3955265517842375
+subsample 0.9906628306623071
+
+******************************
+
+metric 0.7698722811528982
+colsample_bytree 0.615089485597914
+gamma 0.10824150363796697
+learning_rate 0.9867984026738026
+max_depth 8
+min_child_weight 1
+num_parallel_tree 2
+reg_lambda 0.9145227562940869
+subsample 0.7646372080141794
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.7623145826636666
+colsample_bytree 0.9086901099470581
+gamma 0.5742215510392479
+learning_rate 0.6237796037862814
+max_depth 3
+min_child_weight 4
+num_parallel_tree 4
+reg_lambda 0.3308443941583519
+subsample 0.6293184955876636
+
+******************************
+
+metric 0.7369788921032895
+colsample_bytree 0.709463203707426
+gamma 0.23260118107409017
+learning_rate 0.3132278301367992
+max_depth 5
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.6791128116127191
+subsample 0.8784896503589905
+
+******************************
+
+metric 0.7532525447337405
+colsample_bytree 0.732208938897168
+gamma 0.6425309513433506
+learning_rate 0.8438449330565241
+max_depth 1
+min_child_weight 3
+num_parallel_tree 3
+reg_lambda 0.17700348656637627
+subsample 0.6738774855360311
+
+******************************
+
+metric 0.5729075324118719
+colsample_bytree 0.7211395122060104
+gamma 0.7342057521329841
+learning_rate 0.007520693979516269
+max_depth 7
+min_child_weight 1
+num_parallel_tree 2
+reg_lambda 0.19732106285238435
+subsample 0.6471647318853609
+
+******************************
+
+metric 0.7678386370941819
+colsample_bytree 0.7245894247903945
+gamma 0.995143300172365
+learning_rate 0.9879264686399866
+max_depth 10
+min_child_weight 2
+num_parallel_tree 4
+reg_lambda 0.6090248874488714
+subsample 0.6574042819993844
+
+******************************
+
+metric 0.7718812814743383
+colsample_bytree 0.8869707675690456
+gamma 0.30296575471013987
+learning_rate 0.48459243831397025
+max_depth 3
+min_child_weight 3
+num_parallel_tree 3
+reg_lambda 0.7596963594511537
+subsample 0.8997043498787386
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.7534636237008464
+colsample_bytree 0.6522436105610075
+gamma 0.6945690983598374
+learning_rate 0.20427225186288478
+max_depth 2
+min_child_weight 2
+num_parallel_tree 2
+reg_lambda 0.22423265279137422
+subsample 0.5057980622655146
+
+******************************
+
+metric 0.7573950498232079
+colsample_bytree 0.7686095051213792
+gamma 0.27833974892633145
+learning_rate 0.6697112216159486
+max_depth 8
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.4103699277241376
+subsample 0.7099183960145862
+
+******************************
+
+metric 0.7404525875924141
+colsample_bytree 0.6790336980830114
+gamma 0.6415763912999849
+learning_rate 0.8257193462364809
+max_depth 5
+min_child_weight 2
+num_parallel_tree 4
+reg_lambda 0.8046335291852736
+subsample 0.841748247943629
+
+******************************
+
+metric 0.7836744883745848
+colsample_bytree 0.7849543955696989
+gamma 0.8479237057749114
+learning_rate 0.3794970786481005
+max_depth 4
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.54515254473519
+subsample 0.5612919582699039
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.7484247294546235
+colsample_bytree 0.8679768845453534
+gamma 0.3980055821806293
+learning_rate 0.8415329675647922
+max_depth 1
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.029396924654371798
+subsample 0.8086432058730618
+
+******************************
+
+metric 0.5856974177649201
+colsample_bytree 0.9334536821397559
+gamma 0.5688029745335157
+learning_rate 0.7544257376216152
+max_depth 1
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.11900589906962539
+subsample 0.6949206703543428
+
+******************************
+
+metric 0.5737004178720669
+colsample_bytree 0.9332463602629604
+gamma 0.5925136379437408
+learning_rate 0.5842419064045443
+max_depth 2
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.14999815193350496
+subsample 0.7112600018284786
+
+******************************
+
+metric 0.7522959391406836
+colsample_bytree 0.7578560348373565
+gamma 0.7700744298333289
+learning_rate 0.7462788785589733
+max_depth 3
+min_child_weight 1
+num_parallel_tree 4
+reg_lambda 0.2906712922608917
+subsample 0.7080667249110713
+
+******************************
+
+metric 0.7774211936140577
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+colsample_bytree 0.8127080694361767
+  import imp
+gamma 0.37783751422953343
+learning_rate 0.9344544914372502
+max_depth 2
+min_child_weight 3
+num_parallel_tree 3
+reg_lambda 0.07765785149060096
+subsample 0.609455229247275
+
+******************************
+
+metric 0.7208614593378335
+colsample_bytree 0.8403903659543956
+gamma 0.6490531311141519
+learning_rate 0.7342661338599102
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.2562396226586207
+subsample 0.6842204308575623
+
+******************************
+
+metric 0.5689784635165542
+colsample_bytree 0.8573812034763988
+gamma 0.6751041590984926
+learning_rate 0.5468840781297332
+max_depth 4
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.2755784363379975
+subsample 0.5877212419324536
+
+******************************
+
+metric 0.7350288224579449
+colsample_bytree 0.835043758862016
+gamma 0.8992370768709472
+learning_rate 0.9217814576611588
+max_depth 3
+min_child_weight 2
+num_parallel_tree 2
+reg_lambda 0.38992041851613984
+subsample 0.7448855296437931
+
+******************************
+
+metric 0.7243070823957998
+colsample_bytree 0.7494855811377366
+gamma 0.9858419963712568
+learning_rate 0.7759551743742523
+max_depth 2
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.21755124248214258
+subsample 0.6768743699427172
+
+******************************
+
+metric 0.6767990999678559
+colsample_bytree 0.6790574654671793
+gamma 0.7946088817894583
+learning_rate 0.6663471215849551
+max_depth 9
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.4334379645605448
+subsample 0.527712695728305
+
+******************************
+
+metric 0.7648610307510981
+colsample_bytree 0.7929546892147694
+gamma 0.6304972928140959
+learning_rate 0.9889927225154697
+max_depth 6
+min_child_weight 1
+num_parallel_tree 2
+reg_lambda 0.28605542065411105
+subsample 0.7477101070951067
+
+******************************
+
+metric 0.7546045215900569
+colsample_bytree 0.7429335624502675
+gamma 0.46669217085672715
+learning_rate 0.7079067371051608
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.12708957579601754
+subsample 0.8203427555849089
+
+******************************
+
+metric 0.7001144326583091
+colsample_bytree 0.6013595570632863
+gamma 0.5514375194614916
+learning_rate 0.5617105915903697
+max_depth 1
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.33003924076913743
+subsample 0.6007215576887743
+
+******************************
+
+metric 0.5823158684238724
+colsample_bytree 0.6986134093558597
+gamma 0.4978427163899842
+learning_rate 0.8037612491614995
+max_depth 1
+min_child_weight 2
+num_parallel_tree 3
+reg_lambda 0.06220862892334153
+subsample 0.6653985146409688
+
+******************************
+
+metric 0.580053573341905
+colsample_bytree 0.9384027107923835
+gamma 0.19107111667605897
+learning_rate 0.8746303233967335
+max_depth 4
+min_child_weight 5
+num_parallel_tree 4
+reg_lambda 0.20136564010773422
+subsample 0.7830027656870497
+
+******************************
+
+metric 0.7465803064395157
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+colsample_bytree 0.8948694450103986
+  import imp
+gamma 0.726398111376364
+learning_rate 0.11407167506099863
+max_depth 5
+min_child_weight 3
+num_parallel_tree 3
+reg_lambda 0.46651392492426325
+subsample 0.735336973266751
+
+******************************
+
+metric 0.7747206685953069
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+colsample_bytree 0.8237249682187214
+  import imp
+gamma 0.900363275461079
+learning_rate 0.4376721986714256
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.004057660337650426
+subsample 0.5611182669955629
+
+******************************
+
+metric 0.5698977820636452
+colsample_bytree 0.9758278042162745
+gamma 0.9056912699557361
+learning_rate 0.42122087809515774
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.010403321545363553
+subsample 0.5435325273828513
+
+******************************
+
+metric 0.7085033751205401
+colsample_bytree 0.8268549043939928
+gamma 0.9612321678776312
+learning_rate 0.33073664098618805
+max_depth 6
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.08521585516721887
+subsample 0.6280506829086441
+
+******************************
+
+metric 0.74656552019715
+colsample_bytree 0.8603546288103653
+gamma 0.8639311715089928
+learning_rate 0.17067231170221842
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.35550076043055073
+subsample 0.566947610316112
+
+******************************
+
+metric 0.7410995392692596
+colsample_bytree 0.7784666316083368
+gamma 0.7782410332921157
+learning_rate 0.42384348293326235
+max_depth 7
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5948563065044145
+subsample 0.5227706456052709
+
+******************************
+
+metric 0.694936247723133
+colsample_bytree 0.8124763373465763
+gamma 0.9369753967037785
+learning_rate 0.6363232422926928
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.009662473802611062
+subsample 0.6371777604531104
+
+******************************
+
+metric 0.5605475195542697
+colsample_bytree 0.9938846639429632
+gamma 0.13406526479071862
+learning_rate 0.6192699604503542
+max_depth 4
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.2540819592094403
+subsample 0.9808594581248259
+
+******************************
+
+metric 0.7466563805850208
+colsample_bytree 0.951869669664605
+gamma 0.004041900143347044
+learning_rate 0.6977274078620572
+max_depth 7
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.5295278964856183
+subsample 0.6331008433190938
+
+******************************
+
+metric 0.7250133933354762
+colsample_bytree 0.8050538444804619
+gamma 0.35561754363087916
+learning_rate 0.525208245877516
+max_depth 3
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.16687226363882787
+subsample 0.7260430491159484
+
+******************************
+
+metric 0.749085181613629
+colsample_bytree 0.8865865553416806
+gamma 0.7321142491588521
+learning_rate 0.6134344328636753
+max_depth 9
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.46548034611201183
+subsample 0.8941607460580261
+
+******************************
+
+metric 0.7506163077252758
+colsample_bytree 0.9189772667796432
+gamma 0.9578439539004526
+learning_rate 0.9301631044375832
+max_depth 2
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.34366961529070217
+subsample 0.7728559748877235
+
+******************************
+
+metric 0.7172564020143577
+colsample_bytree 0.8446355536202167
+gamma 0.5153157981077987
+learning_rate 0.5022134299636813
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6604070447489672
+subsample 0.8572927459679893
+
+******************************
+
+metric 0.5822074359798564
+colsample_bytree 0.628745636440024
+gamma 0.8350346808218464
+learning_rate 0.6601241356288031
+max_depth 9
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.04339718199900118
+subsample 0.9195786095881282
+
+******************************
+
+metric 0.7581838637094183
+colsample_bytree 0.8756813045619298
+gamma 0.433633774851206
+learning_rate 0.35239735953904056
+max_depth 8
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9702703234834618
+subsample 0.580637813621933
+
+******************************
+
+metric 0.7291113254044788
+colsample_bytree 0.768372871611951
+gamma 0.31518411910434035
+learning_rate 0.26006606108004005
+max_depth 5
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.8300387691484641
+subsample 0.6831372652817101
+
+******************************
+
+metric 0.7635281260045
+colsample_bytree 0.9100478644185979
+gamma 0.6932378826267054
+learning_rate 0.8739859017398888
+max_depth 3
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.11212837733960888
+subsample 0.8020356426179607
+
+******************************
+
+metric 0.6927620272152578
+colsample_bytree 0.7023074248787647
+gamma 0.6217632825784392
+learning_rate 0.7296817634839725
+max_depth 6
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.23729274809534562
+subsample 0.6341150048875394
+
+******************************
+
+metric 0.7356822029358192
+colsample_bytree 0.8518124827242045
+gamma 0.7943976906359531
+learning_rate 0.7856773636273788
+max_depth 4
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.16465654538635577
+subsample 0.6526477414851096
+
+******************************
+
+metric 0.6877683488696026
+colsample_bytree 0.9708826181458771
+gamma 0.8679904828649891
+learning_rate 0.2803471941663819
+max_depth 1
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.3856995594647851
+subsample 0.7680143689539868
+
+******************************
+
+metric 0.5955576984892318
+colsample_bytree 0.815277617958962
+gamma 0.5283479880474264
+learning_rate 0.4899356591719364
+max_depth 2
+min_child_weight 5
+num_parallel_tree 4
+reg_lambda 0.31704408064148953
+subsample 0.5053743862412736
+
+******************************
+
+metric 0.728949748205293
+colsample_bytree 0.6549632881528595
+gamma 0.5968346499834243
+learning_rate 0.06626888765975053
+max_depth 3
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.6097081865715078
+subsample 0.6127908936109894
+
+******************************
+
+metric 0.7480865745205185
+colsample_bytree 0.7932658591053727
+gamma 0.9934297788295832
+learning_rate 0.3870705085468227
+max_depth 5
+min_child_weight 3
+num_parallel_tree 3
+reg_lambda 0.1009326624881419
+subsample 0.7023248805897336
+
+******************************
+
+metric 0.7650984678024215
+colsample_bytree 0.8791686702205691
+gamma 0.9387952388406284
+learning_rate 0.6029205018082714
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.04926596128368688
+subsample 0.831104199290299
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.5827228115289832
+colsample_bytree 0.7343012565210858
+gamma 0.21818238512074395
+learning_rate 0.9027102539289705
+max_depth 10
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.4332089905378839
+subsample 0.7217980097251422
+
+******************************
+
+metric 0.753730847530269
+colsample_bytree 0.7122193693318094
+gamma 0.6685895788824132
+learning_rate 0.6721940331500942
+max_depth 2
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.15078064630366275
+subsample 0.6877741454743701
+
+******************************
+
+metric 0.7400501446480232
+colsample_bytree 0.897727547513184
+gamma 0.8208434835772109
+learning_rate 0.5751636732211258
+max_depth 3
+min_child_weight 2
+num_parallel_tree 1
+reg_lambda 0.7546600320959985
+subsample 0.5333903131249896
+
+******************************
+
+metric 0.7204328726025929
+colsample_bytree 0.766925566795266
+gamma 0.4303955339165293
+learning_rate 0.9620389555082427
+max_depth 7
+min_child_weight 3
+num_parallel_tree 4
+reg_lambda 0.2580858267425896
+subsample 0.9406849476371417
+
+******************************
+
+metric 0.7706358084217293
+colsample_bytree 0.6808816396269853
+gamma 0.7502134537819194
+learning_rate 0.8240627237161289
+max_depth 4
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.4858447260415392
+subsample 0.5882061617160638
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.7423589413907639
+colsample_bytree 0.8346396965012244
+gamma 0.7155741370873809
+learning_rate 0.4682571103585424
+max_depth 8
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.9020057411031718
+subsample 0.8614628955467649
+
+******************************
+
+metric 0.7672384013714775
+colsample_bytree 0.9556125479856519
+gamma 0.4854145079524659
+learning_rate 0.6551097263996418
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.20305669952479016
+subsample 0.6685829859885635
+
+******************************
+
+metric 0.711016822029358
+colsample_bytree 0.8043655783878478
+gamma 0.049472815753767996
+learning_rate 0.7745987580733724
+max_depth 1
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.5761662424989583
+subsample 0.7554365341315326
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.5803135111968285
+colsample_bytree 0.7813243208437572
+gamma 0.5602262341484673
+learning_rate 0.7120840522825855
+max_depth 6
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.00878744830569525
+subsample 0.7968182992950302
+
+******************************
+
+metric 0.757551912568306
+colsample_bytree 0.8640187188381092
+gamma 0.8888102382140572
+learning_rate 0.5179236018119334
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.30251165867267393
+subsample 0.5517485313206373
+
+******************************
+
+metric 0.5485278045644486
+colsample_bytree 0.8655407112249386
+gamma 0.877138440325567
+learning_rate 0.5384093508062999
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3081343077223584
+subsample 0.6069640820354376
+
+******************************
+
+metric 0.5505278045644487
+colsample_bytree 0.8641367863884903
+gamma 0.9338530899686478
+learning_rate 0.5337050187588176
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3037047462617716
+subsample 0.5450689431168
+
+******************************
+
+metric 0.6832467588128148
+colsample_bytree 0.9214448621098977
+gamma 0.9983263953302537
+learning_rate 0.21485435179134865
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3608282686733994
+subsample 0.6074731558071972
+
+******************************
+
+metric 0.5843615129111754
+colsample_bytree 0.8976077045278676
+gamma 0.8887187769936465
+learning_rate 0.4410465633651516
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6656661611441657
+subsample 0.6443706492785423
+
+******************************
+
+metric 0.5668340297867781
+colsample_bytree 0.8229460893535365
+gamma 0.8093097541329337
+learning_rate 0.5113397924672672
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.42459503841854096
+subsample 0.5761927830551536
+
+******************************
+
+metric 0.7080957891353263
+colsample_bytree 0.85035465011369
+gamma 0.7597095760295635
+learning_rate 0.548358987770827
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3720546428317081
+subsample 0.5115188425404188
+
+******************************
+
+metric 0.6775298403514411
+colsample_bytree 0.9428380578677673
+gamma 0.9572025066159441
+learning_rate 0.6416124184254064
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.1364401898540127
+subsample 0.5519667182222562
+
+******************************
+
+metric 0.5360165005893067
+colsample_bytree 0.9997137211203152
+gamma 0.8555673079359322
+learning_rate 0.38141365627036816
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.5207178254087353
+subsample 0.5423982569529564
+
+******************************
+
+metric 0.7286308796742741
+colsample_bytree 0.9514275932059487
+gamma 0.9809471125606632
+learning_rate 0.30488751124971036
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.1316370679756548
+subsample 0.5000114204860697
+
+******************************
+
+metric 0.7293941926497376
+colsample_bytree 0.9851792903547439
+gamma 0.9647245632061874
+learning_rate 0.5902968663491001
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.18760491114783914
+subsample 0.6198853999505399
+
+******************************
+
+metric 0.561841422907961
+colsample_bytree 0.9409280688156417
+gamma 0.9190737415126518
+learning_rate 0.4685271254578718
+max_depth 4
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.2242247417045524
+subsample 0.5925668900239813
+
+******************************
+
+metric 0.7315654130504662
+colsample_bytree 0.9271637428748306
+gamma 0.8428259640950458
+learning_rate 0.6917352956858457
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.27947591124331417
+subsample 0.5156065829094613
+
+******************************
+
+metric 0.5363885138754956
+colsample_bytree 0.9639152128832044
+gamma 0.8365743872568323
+learning_rate 0.756823454711478
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.07355048314819998
+subsample 0.5185036895635581
+
+******************************
+
+metric 0.6266591663987999
+colsample_bytree 0.9269249918892613
+gamma 0.7090550021115896
+learning_rate 0.6929425825532405
+max_depth 3
+min_child_weight 1
+num_parallel_tree 1
+reg_lambda 0.2619308911422836
+subsample 0.5511562433619737
+
+******************************
+
+metric 0.6494454087645988
+colsample_bytree 0.9855413740308268
+gamma 0.7872342173177547
+learning_rate 0.8576776038830751
+max_depth 2
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.4106488176709386
+subsample 0.5608517745186636
+
+******************************
+
+metric 0.667707703846566
+colsample_bytree 0.9781412248108806
+gamma 0.6062036395641328
+learning_rate 0.5720765334124244
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.2818398022980953
+subsample 0.5294447274523931
+
+******************************
+
+metric 0.5615264116575591
+colsample_bytree 0.9122110283676181
+gamma 0.66424790590993
+learning_rate 0.3567171881577367
+max_depth 4
+min_child_weight 2
+num_parallel_tree 1
+reg_lambda 0.45789227610046157
+subsample 0.5699854946036066
+
+******************************
+
+metric 0.7664870888246008
+colsample_bytree 0.8770431739148962
+gamma 0.7551061602962481
+learning_rate 0.6407587081514642
+max_depth 2
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.33130180551153277
+subsample 0.6609403706783716
+
+******************************
+
+metric 0.7138116361298618
+colsample_bytree 0.959570006893288
+gamma 0.8138165719005332
+learning_rate 0.8147592096061576
+max_depth 5
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.2356420837162952
+subsample 0.5165073017626862
+
+******************************
+
+metric 0.6641632915461266
+colsample_bytree 0.9478320162528769
+gamma 0.9124171316282822
+learning_rate 0.4029194353763718
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.12926030390983753
+subsample 0.5554667668272923
+
+******************************
+
+metric 0.5645230901103611
+colsample_bytree 0.8908521471539597
+gamma 0.6857839165126106
+learning_rate 0.6776284034047855
+max_depth 3
+min_child_weight 2
+num_parallel_tree 2
+reg_lambda 0.179763632123989
+subsample 0.5003756412467517
+
+******************************
+
+metric 0.7139303546555235
+colsample_bytree 0.9316713989331644
+gamma 0.9485126160277975
+learning_rate 0.7292683729217909
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.09398796696497697
+subsample 0.5358604375523264
+
+******************************
+
+metric 0.5621052180435016
+colsample_bytree 0.9015104487535601
+gamma 0.8920838776394282
+learning_rate 0.44469396025551844
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5016560439647975
+subsample 0.5911608827812892
+
+******************************
+
+metric 0.69717154184078
+colsample_bytree 0.9440815171820075
+gamma 0.8624246812780554
+learning_rate 0.8001983251946949
+max_depth 4
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.20957640367368446
+subsample 0.6166496689353915
+
+******************************
+
+metric 0.7639845708775312
+colsample_bytree 0.9052859939918969
+gamma 0.9708125553606315
+learning_rate 0.6253696027465239
+max_depth 3
+min_child_weight 4
+num_parallel_tree 4
+reg_lambda 0.386977970683321
+subsample 0.5982109403030871
+
+******************************
+
+metric 0.7394366227365263
+colsample_bytree 0.9185952186193498
+gamma 0.6491545424371135
+learning_rate 0.5974638816005856
+max_depth 5
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.15132686588742067
+subsample 0.5785820935396064
+
+******************************
+
+metric 0.7498592092574734
+colsample_bytree 0.975062293185712
+gamma 0.1624628396674142
+learning_rate 0.9077419706214208
+max_depth 9
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4485071848226413
+subsample 0.9947234062784215
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.7499528554591235
+colsample_bytree 0.8818687363675715
+gamma 0.27983003055372146
+learning_rate 0.952991680450419
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.48409087090357283
+subsample 0.643130915753866
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.5368687453123326
+colsample_bytree 0.883956916710728
+gamma 0.2719996899106966
+learning_rate 0.951434322860955
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.7073950994178726
+subsample 0.6260844945783577
+
+******************************
+
+metric 0.639042322940105
+colsample_bytree 0.8731916267888293
+gamma 0.3425207180369692
+learning_rate 0.9709857960312236
+max_depth 7
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.48320185680460426
+subsample 0.6434486214102919
+
+******************************
+
+metric 0.738999464266581
+colsample_bytree 0.9968500751922693
+gamma 0.07816104980820304
+learning_rate 0.8551984360635309
+max_depth 10
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.7112017719708161
+subsample 0.6773974028518347
+
+******************************
+
+metric 0.7229501767920283
+colsample_bytree 0.9358512145749823
+gamma 0.3908460052779881
+learning_rate 0.7475176337198288
+max_depth 2
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.5575182852874224
+subsample 0.7339295897893252
+
+******************************
+
+metric 0.72941647915997
+colsample_bytree 0.9676077639523317
+gamma 0.2537167109241294
+learning_rate 0.9827248449388768
+max_depth 3
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.030575904071625817
+subsample 0.7020074068446782
+
+******************************
+
+metric 0.6626994535519126
+colsample_bytree 0.8544655178673627
+gamma 0.2994379902931047
+learning_rate 0.7846646821963112
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8479167656664821
+subsample 0.7169545115792745
+
+******************************
+
+metric 0.5651734704810886
+colsample_bytree 0.8386091468665123
+gamma 0.20050156982348422
+learning_rate 0.878652973392966
+max_depth 4
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.410639650955842
+subsample 0.6930568714391627
+
+******************************
+
+metric 0.7147165970213221
+colsample_bytree 0.92776716025578
+gamma 0.46302544706498777
+learning_rate 0.8893277295808159
+max_depth 2
+min_child_weight 3
+num_parallel_tree 4
+reg_lambda 0.5448341646835732
+subsample 0.5686334009522106
+
+******************************
+
+metric 0.7290268938176363
+colsample_bytree 0.795056164113612
+gamma 0.535399302019802
+learning_rate 0.8475087547466765
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6307203326848602
+subsample 0.7873401024283679
+
+******************************
+
+metric 0.5519837137040609
+colsample_bytree 0.827119019893941
+gamma 0.10148779929663335
+learning_rate 0.6946798384577048
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.5197926526285924
+subsample 0.6548030061700555
+
+******************************
+
+metric 0.5743595842708669
+colsample_bytree 0.8466691488037896
+gamma 0.4137563372178008
+learning_rate 0.9323507052124719
+max_depth 6
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6323883584719859
+subsample 0.5240933309125323
+
+******************************
+
+metric 0.6903546555234115
+colsample_bytree 0.9910706008658271
+gamma 0.0025634796313848685
+learning_rate 0.764709630362427
+max_depth 8
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.33824131781432304
+subsample 0.5096233605815451
+
+******************************
+
+metric 0.7154816243437265
+colsample_bytree 0.9165526406609379
+gamma 0.04256662581433948
+learning_rate 0.03044364291276419
+max_depth 3
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.05653809943359028
+subsample 0.6715469219837815
+
+******************************
+
+metric 0.7293813350476803
+colsample_bytree 0.8889008571958809
+gamma 0.15490158039430346
+learning_rate 0.19172892234174643
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3612792187984646
+subsample 0.6238644554653945
+
+******************************
+
+metric 0.5966625950926819
+colsample_bytree 0.9075218218293641
+gamma 0.344197686271965
+learning_rate 0.1315888191102671
+max_depth 5
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.5700748911521188
+subsample 0.6033889312109104
+
+******************************
+
+metric 0.7538341369334619
+colsample_bytree 0.9630753762241565
+gamma 0.3158020505360752
+learning_rate 0.6458480259865798
+max_depth 4
+min_child_weight 2
+num_parallel_tree 2
+reg_lambda 0.795317747393796
+subsample 0.7565812103461294
+
+******************************
+
+metric 0.7646688096003429
+colsample_bytree 0.97908604912102
+gamma 0.47669825777779506
+learning_rate 0.5561716786686997
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.2717904679923962
+subsample 0.5846308016839897
+
+******************************
+
+metric 0.714229079609986
+colsample_bytree 0.8688901497508082
+gamma 0.44613544132528477
+learning_rate 0.7197148857023691
+max_depth 2
+min_child_weight 1
+num_parallel_tree 1
+reg_lambda 0.5970773103432847
+subsample 0.8181023093290439
+
+******************************
+
+metric 0.7124264438015644
+colsample_bytree 0.9548217425901823
+gamma 0.5784507476129168
+learning_rate 0.8260339715817344
+max_depth 1
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.24772650891307468
+subsample 0.5380310377357251
+
+******************************
+
+metric 0.5812628308153863
+colsample_bytree 0.7606097806928673
+gamma 0.3671254323302496
+learning_rate 0.482521520167591
+max_depth 2
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.3180919654233493
+subsample 0.5650007265824882
+
+******************************
+
+metric 0.7112201864352299
+colsample_bytree 0.924755271835544
+gamma 0.23700968717016577
+learning_rate 0.6776136227616073
+max_depth 3
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.4407024161964037
+subsample 0.6488250623735227
+
+******************************
+
+metric 0.7023775849137468
+colsample_bytree 0.8198837625093837
+gamma 0.1150554834009005
+learning_rate 0.7993573029526544
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.10552415456989372
+subsample 0.9707747043944972
+
+******************************
+
+metric 0.5677175613414766
+colsample_bytree 0.8304090306213741
+gamma 0.021382742709881164
+learning_rate 0.9054072842626321
+max_depth 7
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.7035700753396543
+subsample 0.7785181728966091
+
+******************************
+
+metric 0.7390144648023144
+colsample_bytree 0.8088293463542937
+gamma 0.4973567597277829
+learning_rate 0.9899311773465066
+max_depth 5
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.28717362056277795
+subsample 0.5469098529851588
+
+******************************
+
+metric 0.6410778956391299
+colsample_bytree 0.9404542031678113
+gamma 0.1652882000688315
+learning_rate 0.9475142975343307
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.7482954491252667
+subsample 0.7338769441580227
+
+******************************
+
+metric 0.5509032465445194
+colsample_bytree 0.8935849054214208
+gamma 0.6215330553570074
+learning_rate 0.36229924925696044
+max_depth 6
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4842710125949924
+subsample 0.6401657606355916
+
+******************************
+
+metric 0.7461885781635058
+colsample_bytree 0.7434867897060147
+gamma 0.5339760902589221
+learning_rate 0.33629217584080634
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.37899129345820515
+subsample 0.5001516143320868
+
+******************************
+
+metric 0.7215774134790529
+colsample_bytree 0.8834884902555308
+gamma 0.19090442607361718
+learning_rate 0.6077874279879286
+max_depth 2
+min_child_weight 5
+num_parallel_tree 4
+reg_lambda 0.19426164073443408
+subsample 0.5765659407763749
+
+******************************
+
+metric 0.7306109503910854
+colsample_bytree 0.8568092972708568
+gamma 0.26611824699093095
+learning_rate 0.7395495902905762
+max_depth 4
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.15976104763075144
+subsample 0.6632708874186115
+
+******************************
+
+metric 0.6733157612771885
+colsample_bytree 0.7891033460579013
+gamma 0.41502588002206175
+learning_rate 0.9999934133319227
+max_depth 2
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.40223748273124593
+subsample 0.5245659454926486
+
+******************************
+
+metric 0.6917636344155149
+colsample_bytree 0.9035786531800082
+gamma 0.23120166659582456
+learning_rate 0.628962503232623
+max_depth 1
+min_child_weight 1
+num_parallel_tree 2
+reg_lambda 0.9009786904955841
+subsample 0.7036553263077227
+
+******************************
+
+metric 0.5759333547626702
+colsample_bytree 0.9708230594242675
+gamma 0.29007583870890186
+learning_rate 0.407506800648444
+max_depth 3
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.07783538400303698
+subsample 0.6336340993167826
+
+******************************
+
+metric 0.7295069109611058
+colsample_bytree 0.9123407847893783
+gamma 0.3239490355009027
+learning_rate 0.23375835605553558
+max_depth 9
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.13710747601805393
+subsample 0.6116560664143053
+
+******************************
+
+metric 0.7470853959069966
+colsample_bytree 0.9997088021614594
+gamma 0.7439074550849437
+learning_rate 0.8294705257939459
+max_depth 1
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.21965877244254917
+subsample 0.5955998328134067
+
+******************************
+
+metric 0.5593029036751312
+colsample_bytree 0.9871846124231635
+gamma 0.5810982180331717
+learning_rate 0.5711747201090661
+max_depth 3
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.6328567654247403
+subsample 0.7422194935950057
+
+******************************
+
+metric 0.7271685417336333
+colsample_bytree 0.949246539482685
+gamma 0.7832878853074902
+learning_rate 0.30777227928542883
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4681130736323644
+subsample 0.8814100796826214
+
+******************************
+
+metric 0.7418152791171113
+colsample_bytree 0.9323422120739826
+gamma 0.7068872613727761
+learning_rate 0.5046649426283114
+max_depth 1
+min_child_weight 2
+num_parallel_tree 3
+reg_lambda 0.34869688836079954
+subsample 0.9152116025758343
+
+******************************
+
+metric 0.5871046823100825
+colsample_bytree 0.8789363594556536
+gamma 0.924622950409671
+learning_rate 0.7101278131905546
+max_depth 8
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.17799247015377384
+subsample 0.6889545087018606
+
+******************************
+
+metric 0.7419020679309976
+colsample_bytree 0.7218822834800493
+gamma 0.8431673608596694
+learning_rate 0.4543109588321477
+max_depth 2
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.04127333341997817
+subsample 0.7150267887683941
+
+******************************
+
+metric 0.7589551055394835
+colsample_bytree 0.7749570036087274
+gamma 0.9953490475723814
+learning_rate 0.6567882104389122
+max_depth 4
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.5297439775094303
+subsample 0.5564565192681107
+
+******************************
+
+metric 0.6742112932604736
+colsample_bytree 0.6357653501805003
+gamma 0.3846067713665901
+learning_rate 0.8652314787722385
+max_depth 3
+min_child_weight 3
+num_parallel_tree 4
+reg_lambda 0.2342943313135056
+subsample 0.5172720334077489
+
+******************************
+
+metric 0.728715525554484
+colsample_bytree 0.8417898282326001
+gamma 0.6075765438449032
+learning_rate 0.42397277155612123
+max_depth 1
+min_child_weight 2
+num_parallel_tree 2
+reg_lambda 0.41918702276544906
+subsample 0.5334303137928528
+
+******************************
+
+metric 0.5723979427836708
+colsample_bytree 0.8008891657770979
+gamma 0.14331924699974546
+learning_rate 0.7751483066121053
+max_depth 5
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9677121320267482
+subsample 0.8426791035550606
+
+******************************
+
+metric 0.7294205507339548
+colsample_bytree 0.6637650485958521
+gamma 0.7668132561574605
+learning_rate 0.4889723902240951
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.00458072700423956
+subsample 0.6788139097142155
+
+******************************
+
+metric 0.5734981249330333
+colsample_bytree 0.8981713550279394
+gamma 0.06842774549778208
+learning_rate 0.2676210274553238
+max_depth 2
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.6832203881566169
+subsample 0.5042060568207268
+
+******************************
+
+metric 0.7437812064716597
+colsample_bytree 0.6054899491269565
+gamma 0.5097506549406567
+learning_rate 0.5302514726569663
+max_depth 10
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.26997209741172723
+subsample 0.5861140989940937
+
+******************************
+
+metric 0.7302995821279332
+colsample_bytree 0.860391039275247
+gamma 0.7250561602056961
+learning_rate 0.8880327321535904
+max_depth 6
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.3225012739617904
+subsample 0.6172914575536613
+
+******************************
+
+metric 0.6686919532840458
+colsample_bytree 0.95833837251277
+gamma 0.8157123357964222
+learning_rate 0.801720666536248
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.511057136053658
+subsample 0.7635315575120326
+
+******************************
+
+metric 0.703573341905068
+colsample_bytree 0.8699008599020773
+gamma 0.1836854978352253
+learning_rate 0.5889481241402494
+max_depth 7
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.11086610560942209
+subsample 0.5699253300384546
+
+******************************
+
+metric 0.7442215793421194
+colsample_bytree 0.9202930183804647
+gamma 0.6603426029345272
+learning_rate 0.9176873733411852
+max_depth 4
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.5849147711784921
+subsample 0.7251881699587868
+
+******************************
+
+metric 0.6866632379727847
+colsample_bytree 0.9387394977506195
+gamma 0.9616421288197716
+learning_rate 0.6807958930886711
+max_depth 2
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.20610180884376822
+subsample 0.6010625314304525
+
+******************************
+
+metric 0.7331704703739419
+colsample_bytree 0.8639877390418077
+gamma 0.8804983051790205
+learning_rate 0.5148213426995966
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3086626499890923
+subsample 0.553550124175238
+
+******************************
+
+metric 0.5364982320797171
+colsample_bytree 0.8376839412434487
+gamma 0.8902090182597664
+learning_rate 0.6146966286104458
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.29879045831605766
+subsample 0.5467800479113925
+
+******************************
+
+metric 0.5500066430943962
+colsample_bytree 0.8515406795003789
+gamma 0.9528091819088766
+learning_rate 0.5544737858394586
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.36373198332242995
+subsample 0.5157665620092169
+
+******************************
+
+metric 0.5353521911496839
+colsample_bytree 0.814807027329094
+gamma 0.9837791406483162
+learning_rate 0.5631168875281888
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.39241954092327674
+subsample 0.5120852044180731
+
+******************************
+
+metric 0.5696972034715526
+colsample_bytree 0.8454898566330938
+gamma 0.8711593182507347
+learning_rate 0.4743316283920339
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3642696055523383
+subsample 0.5272069936532676
+
+******************************
+
+metric 0.703493196185578
+colsample_bytree 0.7524445128349061
+gamma 0.9409217944264601
+learning_rate 0.5480812945173353
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.24785670273467703
+subsample 0.5596499649418581
+
+******************************
+
+metric 0.5411048966034502
+colsample_bytree 0.8932198963790491
+gamma 0.8236751900664774
+learning_rate 0.5184479033562459
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.1435167949810604
+subsample 0.5012035477162267
+
+******************************
+
+metric 0.5511014679095683
+colsample_bytree 0.8551532077562631
+gamma 0.9042223864002
+learning_rate 0.4577676993319363
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.33451657179707456
+subsample 0.5432120007028359
+
+******************************
+
+metric 0.7003381549341048
+colsample_bytree 0.8295687761330208
+gamma 0.7913874580891411
+learning_rate 0.3972098697962355
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.16718403951890132
+subsample 0.574737793095258
+
+******************************
+
+metric 0.6984168006000215
+colsample_bytree 0.910793022358849
+gamma 0.851858313401349
+learning_rate 0.6563211437400273
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.2975076036253876
+subsample 0.532712089390571
+
+******************************
+
+metric 0.5569720347155254
+colsample_bytree 0.7303459751666884
+gamma 0.9293693277492008
+learning_rate 0.5857658823592653
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.2227004951535882
+subsample 0.5099408289042214
+
+******************************
+
+metric 0.5316933461909354
+colsample_bytree 0.7124605707012206
+gamma 0.9994466442264612
+learning_rate 0.6358959918952273
+max_depth 3
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.12098987942222496
+subsample 0.5152293169021432
+
+******************************
+
+metric 0.6530688953176899
+colsample_bytree 0.6971122985139849
+gamma 0.9205901584726465
+learning_rate 0.582387811786748
+max_depth 2
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.08380431555504964
+subsample 0.5067250891479075
+
+******************************
+
+metric 0.6719729990356799
+colsample_bytree 0.6717513433025748
+gamma 0.9468447305836383
+learning_rate 0.6915981266347466
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.18477480466216245
+subsample 0.5253066079257577
+
+******************************
+
+metric 0.5157679202828672
+colsample_bytree 0.66864709082259
+gamma 0.9550531366432903
+learning_rate 0.7274373236646305
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.03520501754452948
+subsample 0.9416181451405277
+
+******************************
+
+metric 0.724178934961963
+colsample_bytree 0.6202231720505954
+gamma 0.9687020922314759
+learning_rate 0.604002205760557
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.18561694481942181
+subsample 0.5257594343102178
+
+******************************
+
+metric 0.5568338154934105
+colsample_bytree 0.685019151159906
+gamma 0.9991909604807775
+learning_rate 0.7559974048606566
+max_depth 2
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.22969869461532355
+subsample 0.5375201665912681
+
+******************************
+
+metric 0.6492459016393443
+colsample_bytree 0.7312122169210641
+gamma 0.9368226495341805
+learning_rate 0.7029039885952164
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.06989322752203692
+subsample 0.5902237575496949
+
+******************************
+
+metric 0.5618737812064716
+colsample_bytree 0.6465824325895622
+gamma 0.9121278045381566
+learning_rate 0.4288453578727789
+max_depth 3
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 2.405394893756352e-05
+subsample 0.6266625104962265
+
+******************************
+
+metric 0.7430564663023679
+colsample_bytree 0.6944809541582759
+gamma 0.6813916663538206
+learning_rate 0.5330605835473857
+max_depth 1
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.09640178802283249
+subsample 0.5000533945192106
+
+******************************
+
+metric 0.5536693453337619
+colsample_bytree 0.7351402008346978
+gamma 0.8094283404806948
+learning_rate 0.6262672808789305
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.14502037803182116
+subsample 0.5828656015784799
+
+******************************
+
+metric 0.6479753562627237
+colsample_bytree 0.6707939187750958
+gamma 0.7418381781844352
+learning_rate 0.4984656219996197
+max_depth 3
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.0538321368528909
+subsample 0.5691798558514855
+
+******************************
+
+metric 0.6971903996571307
+colsample_bytree 0.6436269556933738
+gamma 0.9783542586164122
+learning_rate 0.37153921971204057
+max_depth 1
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.24989482286639142
+subsample 0.5518180873708298
+
+******************************
+
+metric 0.560618022072217
+colsample_bytree 0.7079610006239867
+gamma 0.8395594256318015
+learning_rate 0.33075394380416223
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.2173067599625937
+subsample 0.5629838519266727
+
+******************************
+
+metric 0.7094451944712311
+colsample_bytree 0.6878284235568092
+gamma 0.8626743673024614
+learning_rate 0.5563704804287332
+max_depth 1
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.17278989981495319
+subsample 0.5201315669044101
+
+******************************
+
+metric 0.5839569270331083
+colsample_bytree 0.7162626918195815
+gamma 0.7702712272855056
+learning_rate 0.6737094221722861
+max_depth 3
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.19706686821081623
+subsample 0.6046614338387505
+
+******************************
+
+metric 0.6919757848494589
+colsample_bytree 0.6571073220310658
+gamma 0.9476153470072044
+learning_rate 0.6472999221112931
+max_depth 1
+min_child_weight 2
+num_parallel_tree 2
+reg_lambda 0.01816753368773244
+subsample 0.5419743990751259
+
+******************************
+
+metric 0.5782777242044359
+colsample_bytree 0.6245407656541508
+gamma 0.9025982601614568
+learning_rate 0.5841965566425525
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.12018126122302712
+subsample 0.5103061622661338
+
+******************************
+
+metric 0.6805481624343728
+colsample_bytree 0.7729024734946183
+gamma 0.9834356265239994
+learning_rate 0.739382679624774
+max_depth 4
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.2687601355005237
+subsample 0.6131442185611692
+
+******************************
+
+metric 0.715527054537662
+colsample_bytree 0.6096031347081539
+gamma 0.9250545001499039
+learning_rate 0.2876632848820737
+max_depth 2
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.3419400385582867
+subsample 0.6542150901103091
+
+******************************
+
+metric 0.7583784420872174
+colsample_bytree 0.7263628802394606
+gamma 0.8328965807757303
+learning_rate 0.710408121213096
+max_depth 8
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.437082859494957
+subsample 0.5323262315062269
+
+******************************
+
+metric 0.6751207543126541
+colsample_bytree 0.7476149280171973
+gamma 0.8005798513038546
+learning_rate 0.4509992508768482
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.2888875945872447
+subsample 0.5944811965140424
+
+******************************
+
+metric 0.5697469195328405
+colsample_bytree 0.7814975565458826
+gamma 0.874213302591186
+learning_rate 0.8389630241352358
+max_depth 3
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.378275449748947
+subsample 0.576260942697651
+
+******************************
+
+metric 0.6466591663988
+colsample_bytree 0.7567313468708418
+gamma 0.721221815503349
+learning_rate 0.7661322396269367
+max_depth 1
+min_child_weight 2
+num_parallel_tree 2
+reg_lambda 0.16210013885070507
+subsample 0.5047650922185769
+
+******************************
+
+metric 0.567179470695382
+colsample_bytree 0.6305826033094689
+gamma 0.95520322010995
+learning_rate 0.6039783539577719
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.2052069930995959
+subsample 0.5582189861162039
+
+******************************
+
+metric 0.6911623272259724
+colsample_bytree 0.7613519681712475
+gamma 0.6405827309531772
+learning_rate 0.6920018148182812
+max_depth 2
+min_child_weight 3
+num_parallel_tree 4
+reg_lambda 0.4578394861617885
+subsample 0.6349930649809921
+
+******************************
+
+metric 0.7349473909782492
+colsample_bytree 0.6765787906936354
+gamma 0.6946092250108207
+learning_rate 0.5693290146737024
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.09021554498898005
+subsample 0.5189668698575346
+
+******************************
+
+metric 0.5443857280617165
+colsample_bytree 0.7364964309325015
+gamma 0.7567663052974468
+learning_rate 0.48401469151439536
+max_depth 4
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.40627887582761546
+subsample 0.666052872028092
+
+******************************
+
+metric 0.7112681881495767
+colsample_bytree 0.6919463009170005
+gamma 0.9975440717160939
+learning_rate 0.404808076690633
+max_depth 3
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.25712522413695393
+subsample 0.5838449683704271
+
+******************************
+
+metric 0.6921617914925533
+colsample_bytree 0.7872743020886943
+gamma 0.9011439194805624
+learning_rate 0.7835357426590847
+max_depth 6
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.06294033653561659
+subsample 0.5011608748423922
+
+******************************
+
+metric 0.7342532947605271
+colsample_bytree 0.7055172599831045
+gamma 0.9264957534884367
+learning_rate 0.6196985793761439
+max_depth 1
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.23463863941662108
+subsample 0.5413387231994043
+
+******************************
+
+metric 0.5771561127183114
+colsample_bytree 0.7204013607149011
+gamma 0.8515183310793408
+learning_rate 0.5459417704476726
+max_depth 9
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.3521010606324955
+subsample 0.8393050320805528
+
+******************************
+
+metric 0.750192435444123
+colsample_bytree 0.6549501102623364
+gamma 0.7847905622172338
+learning_rate 0.5024549631416704
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.3227665987921162
+subsample 0.8627099422498443
+
+******************************
+
+metric 0.7346334511946855
+colsample_bytree 0.7415792320576713
+gamma 0.8283557489829412
+learning_rate 0.6669076372960216
+max_depth 1
+min_child_weight 1
+num_parallel_tree 1
+reg_lambda 0.142308014979203
+subsample 0.5261176070661189
+
+******************************
+
+metric 0.5513806921675775
+colsample_bytree 0.7996195894794611
+gamma 0.5542639983852721
+learning_rate 0.35187615480868345
+max_depth 2
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.02523785821958735
+subsample 0.5501150530936404
+
+******************************
+
+metric 0.7029473909782492
+colsample_bytree 0.6633073024987298
+gamma 0.9999678010451004
+learning_rate 0.8108856701078336
+max_depth 5
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.11898486467155658
+subsample 0.6040653270701971
+
+******************************
+
+metric 0.6745314475516984
+colsample_bytree 0.6795062583574931
+gamma 0.8842675020671689
+learning_rate 0.2345592202132799
+max_depth 3
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.18432369108722513
+subsample 0.8135457973305658
+
+******************************
+
+metric 0.7708096003428693
+colsample_bytree 0.7680386215281121
+gamma 0.9639871004060854
+learning_rate 0.6416081638920961
+max_depth 1
+min_child_weight 4
+num_parallel_tree 4
+reg_lambda 0.28404267732125177
+subsample 0.9755292522290238
+
+******************************
+
+metric 0.5913652630451087
+colsample_bytree 0.7000231603199768
+gamma 0.8609613552794568
+learning_rate 0.7343835224578413
+max_depth 2
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.3608001595015704
+subsample 0.5622125758113085
+
+******************************
+
+metric 0.674206578806386
+colsample_bytree 0.6345206126773419
+gamma 0.94445071489703
+learning_rate 0.46836442250025434
+max_depth 1
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.15468575496632744
+subsample 0.8030637458597318
+
+******************************
+
+metric 0.5877589199614273
+colsample_bytree 0.6733071647639465
+gamma 0.9756015455414832
+learning_rate 0.5949510573645498
+max_depth 3
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.21803718532637997
+subsample 0.6278176593145071
+
+******************************
+
+metric 0.6996147005250186
+colsample_bytree 0.7261480478726257
+gamma 0.8022811929113289
+learning_rate 0.5429997675418049
+max_depth 4
+min_child_weight 2
+num_parallel_tree 1
+reg_lambda 0.43042020859093716
+subsample 0.5110875127770589
+
+******************************
+
+metric 0.7001397192756884
+colsample_bytree 0.8063144707169309
+gamma 0.9126751922214599
+learning_rate 0.1336219188878517
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.5555036997490659
+subsample 0.5007345229216371
+
+******************************
+
+metric 0.5865706632379728
+colsample_bytree 0.6474966040954405
+gamma 0.7299754639562468
+learning_rate 0.43963412773287486
+max_depth 2
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.3912907022152566
+subsample 0.9127010483091906
+
+******************************
+
+metric 0.725361191471124
+colsample_bytree 0.6128034471516691
+gamma 0.8808181044111372
+learning_rate 0.3895851793070034
+max_depth 7
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.10002805544747617
+subsample 0.5341964804468075
+
+******************************
+
+metric 0.7538677809921783
+colsample_bytree 0.819050528709777
+gamma 0.6209558161197837
+learning_rate 0.5249575286779791
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.31145587665035207
+subsample 0.6165360688693056
+
+******************************
+
+metric 0.5562976534876245
+colsample_bytree 0.7516536474875877
+gamma 0.7699614629616593
+learning_rate 0.7489381396669306
+max_depth 2
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.24336276367987025
+subsample 0.5756815705167637
+
+******************************
+
+metric 0.7011138969248901
+colsample_bytree 0.7144468180616677
+gamma 0.8250013704079565
+learning_rate 0.7166247329371687
+max_depth 9
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.18955992498191604
+subsample 0.9580774767611602
+
+******************************
+
+metric 0.7547457409193186
+colsample_bytree 0.7815970561957762
+gamma 0.7106401688614505
+learning_rate 0.6239829341046809
+max_depth 1
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.1320416027507406
+subsample 0.5943322165318208
+
+******************************
+
+metric 0.5494499089253188
+colsample_bytree 0.6602805857116191
+gamma 0.6668229042421004
+learning_rate 0.6853178204862832
+max_depth 5
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.49981629669271477
+subsample 0.5490754962346711
+
+******************************
+
+metric 0.716526518804243
+colsample_bytree 0.7976820256987097
+gamma 0.9346133330231188
+learning_rate 0.5748771892614252
+max_depth 3
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.04368056911702295
+subsample 0.5675554730686824
+
+******************************
+
+metric 0.7363452266152363
+colsample_bytree 0.6205428037076512
+gamma 0.998035555616206
+learning_rate 0.6607987439448414
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.46860831725626806
+subsample 0.5282492019525105
+
+******************************
+
+metric 0.7030491803278688
+colsample_bytree 0.6872508341078779
+gamma 0.9790450318231095
+learning_rate 0.7875885547286008
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.06968024584432797
+subsample 0.648610624580407
+
+******************************
+
+metric 0.5540081431479695
+colsample_bytree 0.7617167988611486
+gamma 0.742206350703523
+learning_rate 0.49588854673160465
+max_depth 4
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.26027944554718496
+subsample 0.5185761181080388
+
+******************************
+
+metric 0.7246983820850745
+colsample_bytree 0.7703865914495311
+gamma 0.9043656353575482
+learning_rate 0.43092807069903716
+max_depth 2
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.3361887752080249
+subsample 0.5003071059720355
+
+******************************
+
+metric 0.7426073074038358
+colsample_bytree 0.7035194501840752
+gamma 0.8590685152034668
+learning_rate 0.7049789576201142
+max_depth 3
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.001220831386679444
+subsample 0.6979842684504535
+
+******************************
+
+metric 0.7219067823850851
+colsample_bytree 0.7384660143006997
+gamma 0.6945411319902285
+learning_rate 0.8566087946430506
+max_depth 1
+min_child_weight 4
+num_parallel_tree 4
+reg_lambda 0.5385650202977483
+subsample 0.6844009352566645
+
+******************************
+
+metric 0.5845612343297975
+colsample_bytree 0.8111545923275371
+gamma 0.9631214621289601
+learning_rate 0.8190500362544185
+max_depth 3
+min_child_weight 2
+num_parallel_tree 1
+reg_lambda 0.21766317331813895
+subsample 0.5860226776390376
+
+******************************
+
+metric 0.663513554055502
+colsample_bytree 0.7490266014506439
+gamma 0.8867418867677774
+learning_rate 0.5605827043660765
+max_depth 2
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.17471323111241394
+subsample 0.5430075093044086
+
+******************************
+
+metric 0.694869602485803
+colsample_bytree 0.6504954903358452
+gamma 0.8000670484413864
+learning_rate 0.5908852393298479
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.27426478360823414
+subsample 0.620568911157653
+
+******************************
+
+metric 0.5741024322297225
+colsample_bytree 0.6384289585525094
+gamma 0.9417008821013517
+learning_rate 0.6406628963047738
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.3677298286092346
+subsample 0.5589932820425951
+
+******************************
+
+metric 0.5678643522982965
+colsample_bytree 0.6681781800726148
+gamma 0.8406703142359347
+learning_rate 0.5216956210542094
+max_depth 8
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.29838690800118317
+subsample 0.6579897303601614
+
+******************************
+
+metric 0.713442408657452
+colsample_bytree 0.7883599799830595
+gamma 0.5887350987076887
+learning_rate 0.4099339414910305
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.4180842500370745
+subsample 0.6089476302513065
+
+******************************
+
+metric 0.6913929068895318
+colsample_bytree 0.8243938620285326
+gamma 0.7759612025914258
+learning_rate 0.4744851884949624
+max_depth 6
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.9995106028437175
+subsample 0.8982653906732787
+
+******************************
+
+metric 0.7630506803814422
+colsample_bytree 0.8484865100864045
+gamma 0.4533317573649844
+learning_rate 0.7610949663032733
+max_depth 2
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.08884661412735749
+subsample 0.636264583245055
+
+******************************
+
+metric 0.7190365370191791
+colsample_bytree 0.7263774053419844
+gamma 0.927011478772582
+learning_rate 0.6657518981604946
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.20184077442157977
+subsample 0.5109773150900423
+
+******************************
+
+metric 0.5398604950176792
+colsample_bytree 0.6030821000237486
+gamma 0.7553087446956191
+learning_rate 0.6122314941536412
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3228018828971154
+subsample 0.5373841348440246
+
+******************************
+
+metric 0.6745595199828565
+colsample_bytree 0.6831297139898567
+gamma 0.8128620221850026
+learning_rate 0.7230327825410887
+max_depth 10
+min_child_weight 1
+num_parallel_tree 1
+reg_lambda 0.11325749727737386
+subsample 0.5695629180353565
+
+******************************
+
+metric 0.7154580520732884
+colsample_bytree 0.8733841536380115
+gamma 0.998741628900468
+learning_rate 0.6964339635832829
+max_depth 4
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.6121773728407792
+subsample 0.5219198507661557
+
+******************************
+
+metric 0.7568567448837459
+colsample_bytree 0.8358547345746639
+gamma 0.6506052370841213
+learning_rate 0.2954865663107527
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.16576061761812558
+subsample 0.8810493189774339
+
+******************************
+
+metric 0.7435703417979214
+colsample_bytree 0.6935888012120881
+gamma 0.8988571748525255
+learning_rate 0.06185874346604253
+max_depth 1
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.23442004163027866
+subsample 0.7747698208642235
+
+******************************
+
+metric 0.5376892746169506
+colsample_bytree 0.9792859599777252
+gamma 0.9595536690569471
+learning_rate 0.8391558621195732
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.03019166496966838
+subsample 0.597802843406182
+
+******************************
+
+metric 0.5445955212686167
+colsample_bytree 0.7155972147778202
+gamma 0.8650352789079643
+learning_rate 0.8811415003855663
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4477698708456817
+subsample 0.8279438471630651
+
+******************************
+
+metric 0.6739361405764491
+colsample_bytree 0.7311060818271836
+gamma 0.9782151097604699
+learning_rate 0.45349332772653916
+max_depth 2
+min_child_weight 2
+num_parallel_tree 1
+reg_lambda 0.13655535851445383
+subsample 0.750006626561342
+
+******************************
+
+metric 0.740637094181935
+colsample_bytree 0.7767787523098626
+gamma 0.7845031182918848
+learning_rate 0.789058631340209
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.05686111470321076
+subsample 0.5790992589800871
+
+******************************
+
+metric 0.5825965927354548
+colsample_bytree 0.9461679697542967
+gamma 0.9210971458098949
+learning_rate 0.6456370789578488
+max_depth 7
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.2733196107037036
+subsample 0.5498488095903111
+
+******************************
+
+metric 0.7024808743169398
+colsample_bytree 0.9667961936374425
+gamma 0.842891534898762
+learning_rate 0.5070385750532673
+max_depth 4
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.39193601098819264
+subsample 0.6758698913205115
+
+******************************
+
+metric 0.7360608593164042
+colsample_bytree 0.7580868689057995
+gamma 0.8916221687819871
+learning_rate 0.3746016271463012
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4944276824891807
+subsample 0.5134503260088754
+
+******************************
+
+metric 0.6889540340726453
+colsample_bytree 0.7047781765938701
+gamma 0.9511708096724534
+learning_rate 0.533994982462128
+max_depth 3
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.30854624302095834
+subsample 0.5291654061211285
+
+******************************
+
+metric 0.7333176899174971
+colsample_bytree 0.8151869826849764
+gamma 0.6777434875362751
+learning_rate 0.5819870241586836
+max_depth 10
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.25223319268304095
+subsample 0.7075966966158842
+
+******************************
+
+metric 0.7438088503160827
+colsample_bytree 0.8868901996916542
+gamma 0.8210211421394602
+learning_rate 0.3340995279192409
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.15537401604238937
+subsample 0.5017573632536643
+
+******************************
+
+metric 0.5760347155255545
+colsample_bytree 0.6256392521704607
+gamma 0.9977938729081386
+learning_rate 0.6817965768147712
+max_depth 5
+min_child_weight 4
+num_parallel_tree 4
+reg_lambda 0.37281983746608555
+subsample 0.5530186811589637
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.7622453659059252
+colsample_bytree 0.9013472013273027
+gamma 0.7260868398859518
+learning_rate 0.7463326247720246
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.34902133174408145
+subsample 0.6442497673308034
+
+******************************
+
+metric 0.5479177113468339
+colsample_bytree 0.7906814146110557
+gamma 0.5319567562195104
+learning_rate 0.6245260004430251
+max_depth 2
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.07693066243012939
+subsample 0.5918106042114364
+
+******************************
+
+metric 0.720444658737812
+colsample_bytree 0.6008979743135616
+gamma 0.8740693629036373
+learning_rate 0.550167221091712
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.20642612172754377
+subsample 0.5640964031034217
+
+******************************
+
+metric 0.5536545590913962
+colsample_bytree 0.9945100111567202
+gamma 0.910283544615987
+learning_rate 0.17894274780105957
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.2925444527250748
+subsample 0.6260343547405701
+
+******************************
+
+metric 0.7398851387549555
+colsample_bytree 0.7411106730899849
+gamma 0.5692727004551141
+learning_rate 0.59903675494788
+max_depth 2
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.42506254922579234
+subsample 0.5398019778804339
+
+******************************
+
+metric 0.7029883210114647
+colsample_bytree 0.9178294179007817
+gamma 0.9828057107545467
+learning_rate 0.4194092707950313
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8721115181137585
+subsample 0.8701713207060724
+
+******************************
+
+metric 0.5942537233472625
+colsample_bytree 0.7654293588339562
+gamma 0.7521740050162853
+learning_rate 0.4698966868798536
+max_depth 4
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.8035616311840176
+subsample 0.9317912505113451
+
+******************************
+
+metric 0.7639219972141863
+colsample_bytree 0.677480215530215
+gamma 0.4865712684086778
+learning_rate 0.9346790579054693
+max_depth 8
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.10590627145663109
+subsample 0.8506422134962257
+
+******************************
+
+metric 0.6941195756991322
+colsample_bytree 0.6968619317284874
+gamma 0.6310164150395711
+learning_rate 0.5656416722163173
+max_depth 2
+min_child_weight 2
+num_parallel_tree 1
+reg_lambda 0.01114872876691933
+subsample 0.6075760773928828
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.6973729776063431
+colsample_bytree 0.6408400030178336
+gamma 0.9372684761169162
+learning_rate 0.24247732724764526
+max_depth 1
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.17700524870012932
+subsample 0.795403937168869
+
+******************************
+
+metric 0.595493196185578
+colsample_bytree 0.8029039973918507
+gamma 0.7995855444289061
+learning_rate 0.7725340946038166
+max_depth 6
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.23253953929705473
+subsample 0.5231363174298629
+
+******************************
+
+metric 0.720284367298832
+colsample_bytree 0.615647947938771
+gamma 0.7092257498590107
+learning_rate 0.8053042213090906
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.33030191728063846
+subsample 0.6691815934716879
+
+******************************
+
+metric 0.659500053573342
+colsample_bytree 0.6543750899829877
+gamma 0.8508603289702601
+learning_rate 0.4920538263100619
+max_depth 3
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6530878514046069
+subsample 0.5794455646632258
+
+******************************
+
+metric 0.7016560591449694
+colsample_bytree 0.7217373101629291
+gamma 0.9653436512175292
+learning_rate 0.6669120195629485
+max_depth 1
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.2578741794180879
+subsample 0.7410013940117062
+
+******************************
+
+metric 0.5779054966248796
+colsample_bytree 0.8299136058651314
+gamma 0.9199040808147533
+learning_rate 0.31909011218273176
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.1269465523567644
+subsample 0.5004016133679821
+
+******************************
+
+metric 0.7383919425693775
+colsample_bytree 0.9584750370543957
+gamma 0.6072588258814234
+learning_rate 0.6044790760264688
+max_depth 1
+min_child_weight 4
+num_parallel_tree 4
+reg_lambda 0.04920627013973344
+subsample 0.7218688490910454
+
+******************************
+
+metric 0.5811014679095683
+colsample_bytree 0.93235366473192
+gamma 0.8261139249022563
+learning_rate 0.7265356452463447
+max_depth 9
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.1940047947081837
+subsample 0.5093491481404465
+
+******************************
+
+metric 0.691673202614379
+colsample_bytree 0.8603678079378471
+gamma 0.8768277621667506
+learning_rate 0.519275360812985
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4687462863068609
+subsample 0.7632603641687714
+
+******************************
+
+metric 0.7467339547840994
+colsample_bytree 0.7102484166727606
+gamma 0.7773717511416487
+learning_rate 0.6376232239310151
+max_depth 4
+min_child_weight 3
+num_parallel_tree 3
+reg_lambda 0.5157397997603574
+subsample 0.5334942660042381
+
+******************************
+
+metric 0.7566544519447123
+colsample_bytree 0.7459084595841788
+gamma 0.9463359072164015
+learning_rate 0.8986667040049429
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.4039032862759899
+subsample 0.5561563828402262
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.636611164684453
+colsample_bytree 0.9080429115655022
+gamma 0.9969606979592123
+learning_rate 0.7099604066219797
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.285951825088224
+subsample 0.5177902765557278
+
+******************************
+
+metric 0.544538947819565
+colsample_bytree 0.9243947183860388
+gamma 0.8970578120784571
+learning_rate 0.6880619990657962
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.22138547296337713
+subsample 0.5691638310099247
+
+******************************
+
+metric 0.5386085931640416
+colsample_bytree 0.9452803793033019
+gamma 0.8501258131602726
+learning_rate 0.6570001340100751
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3462360789888182
+subsample 0.5444709248757735
+
+******************************
+
+metric 0.5435842708668167
+colsample_bytree 0.9840324554215639
+gamma 0.977437145233564
+learning_rate 0.580785336877816
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.15370848459788702
+subsample 0.52835601087899
+
+******************************
+
+metric 0.5509227472409729
+colsample_bytree 0.9529696720139065
+gamma 0.9275279914916207
+learning_rate 0.7569383974283257
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.27781738821356394
+subsample 0.5112146787889106
+
+******************************
+
+metric 0.5332911175399122
+colsample_bytree 0.9991061915294801
+gamma 0.9362868220166986
+learning_rate 0.8346337676104798
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.2463685594678717
+subsample 0.512197205440056
+
+******************************
+
+metric 0.534910746812386
+colsample_bytree 0.9999916460423155
+gamma 0.868752239621265
+learning_rate 0.8440774285057489
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3823270632743731
+subsample 0.509070700954904
+
+******************************
+
+metric 0.5196815600557162
+colsample_bytree 0.997681368734977
+gamma 0.9996242845274226
+learning_rate 0.9210314612098863
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.30666897596662007
+subsample 0.5035637039696492
+
+******************************
+
+metric 0.6069270331083253
+colsample_bytree 0.9750448082516185
+gamma 0.8696944622935089
+learning_rate 0.9681691240744232
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3871251615427304
+subsample 0.5385869463927032
+
+******************************
+
+metric 0.5230416800600021
+colsample_bytree 0.9902576593696343
+gamma 0.8142772163118953
+learning_rate 0.975996657796192
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.44154661957969316
+subsample 0.5381164622397667
+
+******************************
+
+metric 0.5317190613950499
+colsample_bytree 0.9770546101371326
+gamma 0.7418109310697438
+learning_rate 0.9797901682278402
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5286598884289209
+subsample 0.5829237716358507
+
+******************************
+
+metric 0.6552964748741027
+colsample_bytree 0.9591313861910803
+gamma 0.6885376842433961
+learning_rate 0.9923251935962167
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4464566002362927
+subsample 0.5613848645970648
+
+******************************
+
+metric 0.5191299689274617
+colsample_bytree 0.965496450276324
+gamma 0.6545294435934296
+learning_rate 0.9510454419035578
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5703822325830845
+subsample 0.5569758711441941
+
+******************************
+
+metric 0.6818052073288331
+colsample_bytree 0.9751994139952227
+gamma 0.6813787475120683
+learning_rate 0.8652190468408063
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5966802649310882
+subsample 0.6034647845799709
+
+******************************
+
+metric 0.5520949319618558
+colsample_bytree 0.9866971799989528
+gamma 0.5188121203841747
+learning_rate 0.9666179018340706
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5491908580485517
+subsample 0.5710380595673065
+
+******************************
+
+metric 0.6478881388621022
+colsample_bytree 0.9659403803920914
+gamma 0.7311322141378023
+learning_rate 0.9874801250349124
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5018946219638636
+subsample 0.5910152945173011
+
+******************************
+
+metric 0.5329887495982
+colsample_bytree 0.9821702438658491
+gamma 0.5444880602918976
+learning_rate 0.9376994308849071
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7287289992629791
+subsample 0.5456164564269881
+
+******************************
+
+metric 0.6470232508303868
+colsample_bytree 0.9984598444658384
+gamma 0.7067426203167474
+learning_rate 0.9085713007185685
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4831559329727782
+subsample 0.5239795560701377
+
+******************************
+
+metric 0.5109953926925962
+colsample_bytree 0.9978937655221853
+gamma 0.5940840987830494
+learning_rate 0.9095242433355606
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6316759238104341
+subsample 0.6196709311813846
+
+******************************
+
+metric 0.6727641701489337
+colsample_bytree 0.9366971752280129
+gamma 0.7034892698819329
+learning_rate 0.8795145819221797
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6521922423066713
+subsample 0.5226240971551703
+
+******************************
+
+metric 0.5453536912032573
+colsample_bytree 0.9729361570623334
+gamma 0.6336688747027782
+learning_rate 0.955991910999838
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6812823628836674
+subsample 0.500541699461475
+
+******************************
+
+metric 0.5225290903246544
+colsample_bytree 0.9576178097623601
+gamma 0.5617486847245416
+learning_rate 0.991609234017167
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8442557698968747
+subsample 0.5285727039689258
+
+******************************
+
+metric 0.6308702453659059
+colsample_bytree 0.9993339882173697
+gamma 0.6141812796317786
+learning_rate 0.9109234601720941
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9324709645041254
+subsample 0.5786520850263419
+
+******************************
+
+metric 0.5329386049501768
+colsample_bytree 0.9905292121382328
+gamma 0.632803281563914
+learning_rate 0.9530924053387076
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5795354733951656
+subsample 0.5629649778046016
+
+******************************
+
+metric 0.6438244937319191
+colsample_bytree 0.9718673848040491
+gamma 0.5831933027961942
+learning_rate 0.9995216160680297
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7362445726711725
+subsample 0.5498229393321972
+
+******************************
+
+metric 0.5438315654130503
+colsample_bytree 0.9499265286261322
+gamma 0.5112459003812865
+learning_rate 0.9999499982490277
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7653386276994085
+subsample 0.5033500845893918
+
+******************************
+
+metric 0.641154612664738
+colsample_bytree 0.9604782195519117
+gamma 0.6657755985290426
+learning_rate 0.8569346911668032
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6214540562982984
+subsample 0.6003897384219284
+
+******************************
+
+metric 0.6472189006750241
+colsample_bytree 0.9391222684872111
+gamma 0.6347242099307376
+learning_rate 0.8907572634932318
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7856444913113539
+subsample 0.5006181182888758
+
+******************************
+
+metric 0.5117640630022501
+colsample_bytree 0.9412081247098506
+gamma 0.42969280251864844
+learning_rate 0.8861625742840755
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7891064644060116
+subsample 0.521018792684909
+
+******************************
+
+metric 0.50300675024108
+colsample_bytree 0.9156720877829402
+gamma 0.3369889643177556
+learning_rate 0.8943501945916915
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7775452751695698
+subsample 0.6354168567030813
+
+******************************
+
+metric 0.6948087431693989
+colsample_bytree 0.9261662791115338
+gamma 0.4250430862517273
+learning_rate 0.9257284885290594
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8804934726083758
+subsample 0.5609053846623216
+
+******************************
+
+metric 0.5409615343405122
+colsample_bytree 0.9336000241130459
+gamma 0.37803261905462837
+learning_rate 0.8868748298072383
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8184982182911037
+subsample 0.5235123428031853
+
+******************************
+
+metric 0.6539997857066323
+colsample_bytree 0.9420441260676563
+gamma 0.47740712588246004
+learning_rate 0.8204839809293504
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7205318533633207
+subsample 0.6102757507737372
+
+******************************
+
+metric 0.6680675024108004
+colsample_bytree 0.8787385548724382
+gamma 0.4020258074211282
+learning_rate 0.8616532709023417
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7924422762369203
+subsample 0.5920496861613197
+
+******************************
+
+metric 0.5521510768241724
+colsample_bytree 0.9066938211502216
+gamma 0.49641136839583516
+learning_rate 0.9419735169423991
+max_depth 2
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.6924543349368236
+subsample 0.5329090673609761
+
+******************************
+
+metric 0.7052924033001179
+colsample_bytree 0.9501280588323506
+gamma 0.4489826475129234
+learning_rate 0.8044505477267362
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9835651748984195
+subsample 0.575322417402893
+
+******************************
+
+metric 0.5486516661309333
+colsample_bytree 0.895930268583477
+gamma 0.41099334260175624
+learning_rate 0.9995202356195383
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.861818688214683
+subsample 0.5002184626777105
+
+******************************
+
+metric 0.6495990571091825
+colsample_bytree 0.9402280063657322
+gamma 0.47030192089592926
+learning_rate 0.9161975730904647
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.946959819119563
+subsample 0.6589176134656555
+
+******************************
+
+metric 0.5636800600021429
+colsample_bytree 0.9257175157450581
+gamma 0.543605124872434
+learning_rate 0.8801455089369167
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.829516579498672
+subsample 0.5481392600543441
+
+******************************
+
+metric 0.6671376834886961
+colsample_bytree 0.9169032103362953
+gamma 0.31144910801000586
+learning_rate 0.8243650570871409
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7561019315665674
+subsample 0.5201785724707751
+
+******************************
+
+metric 0.5223499410693239
+colsample_bytree 0.9567873380706188
+gamma 0.4354299822193518
+learning_rate 0.9277495673343101
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6680910145025352
+subsample 0.5375625095294353
+
+******************************
+
+metric 0.636987035251259
+colsample_bytree 0.8877929622202224
+gamma 0.3545009747100783
+learning_rate 0.8973615713528513
+max_depth 7
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9053145881386083
+subsample 0.5708963570525963
+
+******************************
+
+metric 0.6573161898639237
+colsample_bytree 0.9834104129044215
+gamma 0.5657386149063824
+learning_rate 0.8490815729011967
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9235929344367277
+subsample 0.5875147450979896
+
+******************************
+
+metric 0.6794464802314367
+colsample_bytree 0.9655546489500604
+gamma 0.21436927810360362
+learning_rate 0.9998628415965323
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.950170626258704
+subsample 0.6166147750203936
+
+******************************
+
+metric 0.5593682631522554
+colsample_bytree 0.9343806690821252
+gamma 0.25778669546695415
+learning_rate 0.9669023319241052
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7018158933907498
+subsample 0.556335247984457
+
+******************************
+
+metric 0.6366270223936569
+colsample_bytree 0.8693506043387367
+gamma 0.6020246304690478
+learning_rate 0.7860830316944856
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.783676524968214
+subsample 0.5005633872215831
+
+******************************
+
+metric 0.5164765884495874
+colsample_bytree 0.8726248616321411
+gamma 0.5072673827708252
+learning_rate 0.7860353635666998
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8853878074568233
+subsample 0.5008445664272194
+
+******************************
+
+metric 0.5539147112396872
+colsample_bytree 0.9103823632144868
+gamma 0.5997329887631495
+learning_rate 0.7998814026643588
+max_depth 5
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.7742773557562155
+subsample 0.5197776213350614
+
+******************************
+
+metric 0.7075958427086683
+colsample_bytree 0.89920895153524
+gamma 0.4671462396624606
+learning_rate 0.8653068052913988
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8184206716733857
+subsample 0.5368443315254168
+
+******************************
+
+metric 0.6270436087003108
+colsample_bytree 0.8409753096149881
+gamma 0.3723710266560075
+learning_rate 0.777730623544129
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7911683314525069
+subsample 0.5014791488452642
+
+******************************
+
+metric 0.6427963141540769
+colsample_bytree 0.868400992315983
+gamma 0.5244862668994721
+learning_rate 0.8291924809833877
+max_depth 1
+min_child_weight 1
+num_parallel_tree 3
+reg_lambda 0.8409194370919344
+subsample 0.530996621111396
+
+******************************
+
+metric 0.5631001821493624
+colsample_bytree 0.8919664353454425
+gamma 0.3884687473179171
+learning_rate 0.7643711469118444
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7448480237281315
+subsample 0.6911261810133192
+
+******************************
+
+metric 0.6733071895424836
+colsample_bytree 0.8530403612745983
+gamma 0.5505524465873666
+learning_rate 0.8098911770898434
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.855771249461046
+subsample 0.5459833074228496
+
+******************************
+
+metric 0.5342070073931211
+colsample_bytree 0.9193244795052209
+gamma 0.5756510602008764
+learning_rate 0.740406526582671
+max_depth 6
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.8985410556382831
+subsample 0.8896544257114519
+
+******************************
+
+metric 0.7358971391835423
+colsample_bytree 0.8644098717558758
+gamma 0.4394347203260464
+learning_rate 0.8738629578444863
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7203111885448839
+subsample 0.5161818949930613
+
+******************************
+
+metric 0.6164395156969892
+colsample_bytree 0.9012558460998417
+gamma 0.2961096021984272
+learning_rate 0.9108644812669201
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9864566970175987
+subsample 0.6276137644776366
+
+******************************
+
+metric 0.5298167791706846
+colsample_bytree 0.8805760288979769
+gamma 0.48496770300325825
+learning_rate 0.8417092240178599
+max_depth 2
+min_child_weight 5
+num_parallel_tree 4
+reg_lambda 0.6735983460444864
+subsample 0.6488553689280436
+
+******************************
+
+metric 0.734024858030644
+colsample_bytree 0.9466335331165244
+gamma 0.6517975374205978
+learning_rate 0.9370832225772212
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8187383509904388
+subsample 0.7833722968043974
+
+******************************
+
+metric 0.6779029251044679
+colsample_bytree 0.931017584333879
+gamma 0.6151568209010454
+learning_rate 0.7924249251217276
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.960546432919819
+subsample 0.9634248653675622
+
+******************************
+
+metric 0.5735883424408015
+colsample_bytree 0.8834470926441312
+gamma 0.4578004978025688
+learning_rate 0.8263837431253686
+max_depth 4
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.6408177773195746
+subsample 0.5988733138932745
+
+******************************
+
+metric 0.7255639129968927
+colsample_bytree 0.9121107633236205
+gamma 0.32613851009530664
+learning_rate 0.8992471203587771
+max_depth 8
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7844414246602066
+subsample 0.585291200814152
+
+******************************
+
+metric 0.6825760205721633
+colsample_bytree 0.8930613110324057
+gamma 0.5337641403213221
+learning_rate 0.7666594066449746
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9265746999642395
+subsample 0.5109446803537974
+
+******************************
+
+metric 0.5336307725275903
+colsample_bytree 0.8484302874062354
+gamma 0.36398227163535346
+learning_rate 0.8675072012712288
+max_depth 5
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.7530269674297564
+subsample 0.5269396426701382
+
+******************************
+
+metric 0.6883739419264974
+colsample_bytree 0.9034357157821085
+gamma 0.3965422978902049
+learning_rate 0.8419663484490125
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6022946187871736
+subsample 0.9434725966348609
+
+******************************
+
+metric 0.685137040608593
+colsample_bytree 0.8331972690542543
+gamma 0.4175420242995102
+learning_rate 0.7270766438572925
+max_depth 1
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.702115647269946
+subsample 0.5703400462169175
+
+******************************
+
+metric 0.5717407050251795
+colsample_bytree 0.9253340552254704
+gamma 0.5736378673151141
+learning_rate 0.7416651674192083
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8851810092623553
+subsample 0.5467462257947274
+
+******************************
+
+metric 0.5455139826422373
+colsample_bytree 0.8604308816637013
+gamma 0.4966875731473058
+learning_rate 0.966927446184327
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8616162972476195
+subsample 0.5531119609902984
+
+******************************
+
+metric 0.617556412729026
+colsample_bytree 0.990163944987566
+gamma 0.5931317130368663
+learning_rate 0.9419270618484811
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.7314394733149494
+subsample 0.5021774041420762
+
+******************************
+
+metric 0.643330118932819
+colsample_bytree 0.9681879546194448
+gamma 0.6356812099019643
+learning_rate 0.8907932789696043
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8112609214865374
+subsample 0.50071796695226
+
+******************************
+
+metric 0.5179901425050895
+colsample_bytree 0.9410196228151995
+gamma 0.6754559468665438
+learning_rate 0.8134861102212455
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9137796586595377
+subsample 0.5631764395461378
+
+******************************
+
+metric 0.6594771241830065
+colsample_bytree 0.8731145974695741
+gamma 0.5137138912926931
+learning_rate 0.9235204245852845
+max_depth 9
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.8365516249058501
+subsample 0.5175634006578473
+
+******************************
+
+metric 0.742733097610629
+colsample_bytree 0.9810961361347271
+gamma 0.27964846352692985
+learning_rate 0.7819436258304925
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6575826802263098
+subsample 0.8261087982796335
+
+******************************
+
+metric 0.5581902925104469
+colsample_bytree 0.821583035449956
+gamma 0.5522907668449776
+learning_rate 0.8571081747535447
+max_depth 3
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.7720288500360935
+subsample 0.5791525197907047
+
+******************************
+
+metric 0.6867718847101683
+colsample_bytree 0.9187801751123656
+gamma 0.6025981789453511
+learning_rate 0.7510730080684388
+max_depth 7
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6955783061533283
+subsample 0.7309841759085066
+
+******************************
+
+metric 0.7192801885781634
+colsample_bytree 0.936220683922031
+gamma 0.653675406218894
+learning_rate 0.7126006266713519
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5885150177278257
+subsample 0.611795360427839
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.7048411014679095
+colsample_bytree 0.9472298794781927
+gamma 0.7032566247287958
+learning_rate 0.8825935900167894
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9733110459284997
+subsample 0.5380290994466385
+
+******************************
+
+metric 0.5178510661095039
+colsample_bytree 0.953458488279238
+gamma 0.42935281196777914
+learning_rate 0.8043779943247933
+max_depth 2
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.9996157983694035
+subsample 0.9979226656974287
+
+******************************
+
+metric 0.7126846673095468
+colsample_bytree 0.9083851260243945
+gamma 0.34098494950486047
+learning_rate 0.9571866367622532
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.560542998574094
+subsample 0.5293727260437887
+
+******************************
+
+metric 0.5035737704918033
+colsample_bytree 0.9918639601873616
+gamma 0.34058617690881565
+learning_rate 0.011300035577393064
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5677610087422962
+subsample 0.9858977125498797
+
+******************************
+
+metric 0.5205989499624987
+colsample_bytree 0.9706863817224332
+gamma 0.3419150901230274
+learning_rate 0.9597188869548977
+max_depth 3
+min_child_weight 4
+num_parallel_tree 4
+reg_lambda 0.5326660033397311
+subsample 0.5964680239515127
+
+******************************
+
+metric 0.7332304725168756
+colsample_bytree 0.9610937631814132
+gamma 0.3607849438069232
+learning_rate 0.9813548969400665
+max_depth 4
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.6157092111812427
+subsample 0.6334251366526407
+
+******************************
+
+metric 0.7357867780992178
+colsample_bytree 0.9809565718253148
+gamma 0.0833518237041353
+learning_rate 0.9452851212611921
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6440683279927764
+subsample 0.5700881953271162
+
+******************************
+
+metric 0.5238836387013822
+colsample_bytree 0.9282768966726597
+gamma 0.2359783722086193
+learning_rate 0.9076489211979052
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.4841431848195731
+subsample 0.5269931565168171
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.6432135433408336
+colsample_bytree 0.9530181145673409
+gamma 0.1763858076436911
+learning_rate 0.9808435045894155
+max_depth 1
+min_child_weight 2
+num_parallel_tree 1
+reg_lambda 0.6780108588538016
+subsample 0.6434516130419472
+
+******************************
+
+metric 0.5303777992071146
+colsample_bytree 0.9095528478834262
+gamma 0.14430542574049915
+learning_rate 0.9242114042316636
+max_depth 1
+min_child_weight 1
+num_parallel_tree 2
+reg_lambda 0.7362997444446839
+subsample 0.6244978706831736
+
+******************************
+
+metric 0.5573155469838209
+colsample_bytree 0.9732951775793464
+gamma 0.28084750388479074
+learning_rate 0.8471644329899616
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5556346111517445
+subsample 0.6075270939098921
+
+******************************
+
+metric 0.6755212686167362
+colsample_bytree 0.9998818675423491
+gamma 0.12036024691372815
+learning_rate 0.9558168859989713
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7136511407647232
+subsample 0.5883995649967239
+
+******************************
+
+metric 0.6668256723454409
+colsample_bytree 0.9439423431224065
+gamma 0.27057926604044763
+learning_rate 0.8724444139586599
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6078050297221901
+subsample 0.5587449775834623
+
+******************************
+
+metric 0.5440300010714668
+colsample_bytree 0.8881580919129342
+gamma 0.305726210856187
+learning_rate 0.997099283733834
+max_depth 3
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.5116411888599307
+subsample 0.7124661494338387
+
+******************************
+
+metric 0.7147504553734062
+colsample_bytree 0.9657212429239579
+gamma 0.21287653985483845
+learning_rate 0.9996187977351122
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7980786237838772
+subsample 0.5446281391895869
+
+******************************
+
+metric 0.5201802207221686
+colsample_bytree 0.9866580494444762
+gamma 0.2514367164872828
+learning_rate 0.8240594942489278
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6580115380574795
+subsample 0.6639503833396933
+
+******************************
+
+metric 0.6386036644165862
+colsample_bytree 0.9361062180857415
+gamma 0.3213009069106342
+learning_rate 0.9005907731379758
+max_depth 4
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.5485259069720452
+subsample 0.5784969583673069
+
+******************************
+
+metric 0.6729981785063753
+colsample_bytree 0.9242885070300558
+gamma 0.4013249418464313
+learning_rate 0.970761494943428
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7573222707969339
+subsample 0.5320749459957341
+
+******************************
+
+metric 0.5248884603021536
+colsample_bytree 0.9014136901863985
+gamma 0.035800507643107105
+learning_rate 0.9144618113650135
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.47950404345470565
+subsample 0.6813673148549453
+
+******************************
+
+metric 0.7033899067823851
+colsample_bytree 0.914783246111733
+gamma 0.4554250826404674
+learning_rate 0.9447644742158233
+max_depth 6
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.6331287309162635
+subsample 0.5146984810403342
+
+******************************
+
+metric 0.7345083038679953
+colsample_bytree 0.9928036592626271
+gamma 0.38257171913136456
+learning_rate 0.09762941573486084
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8915247943370526
+subsample 0.550233739914329
+
+******************************
+
+metric 0.5670127504553735
+colsample_bytree 0.958013566867034
+gamma 0.4873445928971324
+learning_rate 0.8840967771173238
+max_depth 5
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8532723683681896
+subsample 0.9049422374802725
+
+******************************
+
+metric 0.7032225436622738
+colsample_bytree 0.9521952966547439
+gamma 0.24382906454513048
+learning_rate 0.8537694195282646
+max_depth 2
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.5769400880850809
+subsample 0.5231946043351383
+
+******************************
+
+metric 0.7071588985320905
+colsample_bytree 0.9783567173762557
+gamma 0.29783400100100504
+learning_rate 0.8268919710501337
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6902472682685186
+subsample 0.5082339611770751
+
+******************************
+
+metric 0.5289418193506911
+colsample_bytree 0.8789498709814811
+gamma 0.43949811099682473
+learning_rate 0.9347749897885315
+max_depth 2
+min_child_weight 4
+num_parallel_tree 4
+reg_lambda 0.7129282718405839
+subsample 0.5371364128842755
+
+******************************
+
+metric 0.7404103717989929
+colsample_bytree 0.8930052990377652
+gamma 0.18637466922618864
+learning_rate 0.7639217762955749
+max_depth 8
+min_child_weight 2
+num_parallel_tree 3
+reg_lambda 0.4625866807997372
+subsample 0.5989465033505832
+
+******************************
+
+metric 0.7566064502303653
+colsample_bytree 0.9306650424251632
+gamma 0.412570255894487
+learning_rate 0.9683898732448274
+max_depth 10
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9312399963081676
+subsample 0.5685711243075426
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.6612609021750777
+colsample_bytree 0.9416115001243219
+gamma 0.2243582887723447
+learning_rate 0.6913429421709967
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8137639554605691
+subsample 0.5578458021031882
+
+******************************
+
+metric 0.6866628093860495
+colsample_bytree 0.9665619533113903
+gamma 0.365546193965282
+learning_rate 0.8008831899667266
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.8302122269524608
+subsample 0.5005864522595512
+
+******************************
+
+metric 0.5432594021215043
+colsample_bytree 0.8437191399710706
+gamma 0.4677506263439214
+learning_rate 0.8963865723291999
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6188940021558502
+subsample 0.5135041749441532
+
+******************************
+
+metric 0.6590048216007716
+colsample_bytree 0.998708791633524
+gamma 0.5300633281173129
+learning_rate 0.730670530214292
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7571029913298803
+subsample 0.5905319517252245
+
+******************************
+
+metric 0.6543006535947713
+colsample_bytree 0.9210631210947671
+gamma 0.3239877835307861
+learning_rate 0.9214650752137447
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.6711437932159816
+subsample 0.6144982536255915
+
+******************************
+
+metric 0.5678013500482161
+colsample_bytree 0.9094553169930049
+gamma 0.5087544613976661
+learning_rate 0.8727380920188925
+max_depth 1
+min_child_weight 1
+num_parallel_tree 1
+reg_lambda 0.5877201901620424
+subsample 0.6549444325793994
+
+******************************
+
+metric 0.556139933569056
+colsample_bytree 0.9854635884103707
+gamma 0.3980455966209133
+learning_rate 0.8368167890889961
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.8664035508259398
+subsample 0.5424473948490832
+
+******************************
+
+metric 0.6695043394406943
+colsample_bytree 0.8540456192499332
+gamma 0.34238037564929036
+learning_rate 0.7773137103313963
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.9591018374407533
+subsample 0.5776644172182723
+
+******************************
+
+metric 0.5657899924997322
+colsample_bytree 0.9744932861712011
+gamma 0.44700906982704297
+learning_rate 0.8143369879493467
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.5174093726419998
+subsample 0.6977490152590289
+
+******************************
+
+metric 0.6805953069752493
+colsample_bytree 0.8819413590603349
+gamma 0.2007105399176454
+learning_rate 0.987934909203834
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4220264272466864
+subsample 0.5263613852886853
+
+******************************
+
+metric 0.6191745419479266
+colsample_bytree 0.8984468553369972
+gamma 0.09744925011884403
+learning_rate 0.9530250064727579
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7353859788316517
+subsample 0.5527185592372263
+
+******************************
+
+metric 0.5311942569377477
+colsample_bytree 0.9503214282406032
+gamma 0.48513452667656276
+learning_rate 0.9989773304551653
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7995553419403902
+subsample 0.6206138667098937
+
+******************************
+
+metric 0.5233984785170899
+colsample_bytree 0.7944010577630573
+gamma 0.5789018595305767
+learning_rate 0.849580813307234
+max_depth 4
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.9148066843524775
+subsample 0.6362981450239219
+
+******************************
+
+metric 0.6830941819350691
+colsample_bytree 0.999634815106843
+gamma 0.42426635434693594
+learning_rate 0.7130504857745354
+max_depth 2
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.7733259860827962
+subsample 0.5682395074813025
+
+******************************
+
+metric 0.7271239687131683
+colsample_bytree 0.9410781358332929
+gamma 0.37868177512605544
+learning_rate 0.9273912391721886
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5432009502704775
+subsample 0.8385187362595851
+
+******************************
+
+metric 0.6936241294331941
+colsample_bytree 0.9058773863138534
+gamma 0.7259919939755201
+learning_rate 0.7550438215267281
+max_depth 9
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6490005257493777
+subsample 0.6020773901348868
+
+******************************
+
+metric 0.6862393656916319
+colsample_bytree 0.9321567579622599
+gamma 0.16222906416132604
+learning_rate 0.9079692816962108
+max_depth 1
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.8409290104508087
+subsample 0.5330915123751023
+
+******************************
+
+metric 0.5774158362798671
+colsample_bytree 0.9698661606435333
+gamma 0.5520126683301987
+learning_rate 0.8818554836081004
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.874427241370329
+subsample 0.6735738061542154
+
+******************************
+
+metric 0.6779239258544948
+colsample_bytree 0.9568425277149367
+gamma 0.35529569423259777
+learning_rate 0.8655709147203234
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.4875549440317686
+subsample 0.5855750123366651
+
+******************************
+
+metric 0.6473727633129756
+colsample_bytree 0.8085265039110398
+gamma 0.270986012082326
+learning_rate 0.6733764182208866
+max_depth 7
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.560805257167942
+subsample 0.8082960413502721
+
+******************************
+
+metric 0.7514604093003322
+colsample_bytree 0.9186476404032541
+gamma 0.6345765262510342
+learning_rate 0.9661197307943961
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9911319823002765
+subsample 0.513817213757709
+
+******************************
+
+metric 0.5321797921354334
+colsample_bytree 0.8631238356160279
+gamma 0.7640804827540462
+learning_rate 0.7920329417689589
+max_depth 6
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6913604262762711
+subsample 0.5611750310609934
+
+******************************
+
+metric 0.7159849994642667
+colsample_bytree 0.9920777274704223
+gamma 0.6913044448850779
+learning_rate 0.8357542058703606
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6335542083983073
+subsample 0.541271661801983
+
+******************************
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+metric 0.5263120111432551
+colsample_bytree 0.8895290011915131
+gamma 0.12723225225995521
+learning_rate 0.6991205524442496
+max_depth 5
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9439636496503988
+subsample 0.5010965072179244
+
+******************************
+
+metric 0.6894544090860387
+colsample_bytree 0.9616864137941818
+gamma 0.5240508109179278
+learning_rate 0.9411449711931515
+max_depth 1
+min_child_weight 2
+num_parallel_tree 2
+reg_lambda 0.5904918030731775
+subsample 0.7554131610432777
+
+******************************
+
+metric 0.5636117004178721
+colsample_bytree 0.837214275749941
+gamma 0.6702325646935879
+learning_rate 0.7396003690281793
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.41413232424919133
+subsample 0.5001411974604475
+
+******************************
+
+metric 0.6504830172506161
+colsample_bytree 0.9470447013469085
+gamma 0.5000748626150235
+learning_rate 0.8972420994262525
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7175348291170719
+subsample 0.5239526252888571
+
+******************************
+
+metric 0.5242451516125576
+colsample_bytree 0.9794251055812428
+gamma 0.6163172721362913
+learning_rate 0.9788783282735479
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7452755963185158
+subsample 0.9238623745249066
+
+******************************
+
+metric 0.7172476159862853
+colsample_bytree 0.8268530023153129
+gamma 0.312111581853878
+learning_rate 0.8065781115535957
+max_depth 2
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.6057647733862971
+subsample 0.548828481312918
+
+******************************
+
+metric 0.72146512375442
+colsample_bytree 0.780502136438695
+gamma 0.2935052643602918
+learning_rate 0.7670161404900285
+max_depth 4
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.5275462327665505
+subsample 0.5098984190735975
+
+******************************
+
+metric 0.6646895960570021
+colsample_bytree 0.9226501242477131
+gamma 0.4274537763407126
+learning_rate 0.8575390959865524
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.44458360892458043
+subsample 0.5746393570152608
+
+******************************
+
+metric 0.5253451194685524
+colsample_bytree 0.9341701856697672
+gamma 0.5426342378377281
+learning_rate 0.9988227688382705
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9028368581185604
+subsample 0.5211753191832502
+
+******************************
+
+metric 0.613506696667738
+colsample_bytree 0.8737392800585216
+gamma 0.25386193625532844
+learning_rate 0.8193026257196585
+max_depth 3
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6697448962197063
+subsample 0.8694960910641643
+
+******************************
+
+metric 0.7209240330011787
+colsample_bytree 0.8984219128146124
+gamma 0.46598279994796715
+learning_rate 0.9260216552934953
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5029695358458318
+subsample 0.5330311354608475
+
+******************************
+
+metric 0.5301654344798028
+colsample_bytree 0.6332868171032252
+gamma 0.3992051061535219
+learning_rate 0.8884185834797185
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4647291416246168
+subsample 0.6431758683394567
+
+******************************
+
+metric 0.6647307403835852
+colsample_bytree 0.9862900505292027
+gamma 0.5674848168069633
+learning_rate 0.9465394386499354
+max_depth 1
+min_child_weight 4
+num_parallel_tree 3
+reg_lambda 0.8065892704942976
+subsample 0.5969175598159364
+
+******************************
+
+metric 0.5651338262080788
+colsample_bytree 0.9730257351406162
+gamma 0.7379500376425118
+learning_rate 0.6564787707663169
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6856870262006562
+subsample 0.7922602792910753
+
+******************************
+
+metric 0.7046143790849675
+colsample_bytree 0.9115264266885029
+gamma 0.7168193031927397
+learning_rate 0.7757065107812436
+max_depth 1
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.7686321359584168
+subsample 0.6066309975049362
+
+******************************
+
+metric 0.5645438765670201
+colsample_bytree 0.9612298481439981
+gamma 0.6612675960139355
+learning_rate 0.9990262214162593
+max_depth 1
+min_child_weight 3
+num_parallel_tree 4
+reg_lambda 0.8341684451582793
+subsample 0.5608357894971154
+
+******************************
+
+metric 0.5704324440158578
+colsample_bytree 0.9990978688730828
+gamma 0.3297818731226942
+learning_rate 0.04424384354483263
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8742330910673749
+subsample 0.5001609975275326
+
+******************************
+
+metric 0.6968837458480659
+colsample_bytree 0.8840667040325286
+gamma 0.3762593393233947
+learning_rate 0.722363084013384
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.572078579012087
+subsample 0.6251656048268657
+
+******************************
+
+metric 0.6933659059252116
+colsample_bytree 0.6108120144467377
+gamma 0.44844185017357974
+learning_rate 0.8457492813931149
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.6238945605479277
+subsample 0.5515401105709041
+
+******************************
+
+metric 0.5614518375656272
+colsample_bytree 0.866931576910724
+gamma 0.6044817715224656
+learning_rate 0.784105111168685
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7918442526266972
+subsample 0.5091769980439046
+
+******************************
+
+metric 0.5238997107039537
+colsample_bytree 0.8744495185726484
+gamma 0.6475532994507993
+learning_rate 0.8748437746390832
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7821623407532399
+subsample 0.5234495736483642
+
+******************************
+
+metric 0.5315658416372013
+colsample_bytree 0.8489057773885347
+gamma 0.563446490291886
+learning_rate 0.9094823645326683
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7274688835813826
+subsample 0.5393386350659825
+
+******************************
+
+metric 0.5217801350048216
+colsample_bytree 0.857803758336848
+gamma 0.5925971672507622
+learning_rate 0.794148468548832
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8244345128250934
+subsample 0.5007308131122694
+
+******************************
+
+metric 0.5312546876674167
+colsample_bytree 0.8159453016039484
+gamma 0.7020294688586334
+learning_rate 0.749548916611442
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7421513552410148
+subsample 0.5129529477299186
+
+******************************
+
+metric 0.5490125361620057
+colsample_bytree 0.9069168439386097
+gamma 0.6790311923600674
+learning_rate 0.8271068625670062
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8622017775503594
+subsample 0.5291990280127702
+
+******************************
+
+metric 0.5458817100610736
+colsample_bytree 0.8942030188813909
+gamma 0.6233809093965581
+learning_rate 0.8726224938010021
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7676886316454602
+subsample 0.5003477699060113
+
+******************************
+
+metric 0.5283437265616628
+colsample_bytree 0.9270444817950237
+gamma 0.6217689991156081
+learning_rate 0.8517072225166895
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8465980619551641
+subsample 0.5433070870458816
+
+******************************
+
+metric 0.6352891888996035
+colsample_bytree 0.8870121539640339
+gamma 0.5397739591572754
+learning_rate 0.9063038744494637
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.888448373507586
+subsample 0.5227789946396348
+
+******************************
+
+metric 0.5220499303546555
+colsample_bytree 0.8716132204012175
+gamma 0.5047926400402442
+learning_rate 0.8124362238776989
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7134609478904714
+subsample 0.5093777159986288
+
+******************************
+
+metric 0.5393382620807886
+colsample_bytree 0.84265809758013
+gamma 0.5882679820350887
+learning_rate 0.7908608035690882
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.8123795138625044
+subsample 0.565674185854473
+
+******************************
+
+metric 0.649151826850959
+colsample_bytree 0.9168055034212255
+gamma 0.47574647655408897
+learning_rate 0.9585259250562935
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6591750994008841
+subsample 0.552728359389752
+
+******************************
+
+metric 0.521589199614272
+colsample_bytree 0.9394890552684639
+gamma 0.6345835130346984
+learning_rate 0.834022073161725
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.9248469185496766
+subsample 0.5831984030660851
+
+******************************
+
+metric 0.648578377799207
+colsample_bytree 0.901876558614212
+gamma 0.7575501999114125
+learning_rate 0.7476070307405484
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7915205528588656
+subsample 0.5346496812246236
+
+******************************
+
+metric 0.5465963784420872
+colsample_bytree 0.8630958532163606
+gamma 0.7921306015064532
+learning_rate 0.6822715392405644
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7499286469616604
+subsample 0.5181542029447913
+
+******************************
+
+metric 0.5512551162541519
+colsample_bytree 0.8790935993999534
+gamma 0.4140723462392706
+learning_rate 0.7028840958838234
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6977769514039411
+subsample 0.5011262867590095
+
+******************************
+
+metric 0.6826465230901104
+colsample_bytree 0.8328027952535062
+gamma 0.49310293968626345
+learning_rate 0.8917182635302303
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7276866438267159
+subsample 0.529541776022918
+
+******************************
+
+metric 0.5411798992821172
+colsample_bytree 0.9278368573797395
+gamma 0.5247371562449891
+learning_rate 0.9274308190009594
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6762870153192024
+subsample 0.5404062609283122
+
+******************************
+
+metric 0.5079571413264758
+colsample_bytree 0.9538367105039055
+gamma 0.5235177830723048
+learning_rate 0.9782301683507207
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6423602059612887
+subsample 0.5708279389306294
+
+******************************
+
+metric 0.6605638058502089
+colsample_bytree 0.9451237320389602
+gamma 0.442079665194695
+learning_rate 0.9262726620541457
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.682408822397365
+subsample 0.54498023171145
+
+******************************
+
+metric 0.6291835422693668
+colsample_bytree 0.9653580925690558
+gamma 0.39195521286106616
+learning_rate 0.9797223262703476
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6145367663096699
+subsample 0.5604600589852629
+
+******************************
+
+metric 0.5270112504018001
+colsample_bytree 0.9252753355210315
+gamma 0.4580565371992341
+learning_rate 0.9428297748068288
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6617652385627681
+subsample 0.5787501225312779
+
+******************************
+
+metric 0.5479258544948034
+colsample_bytree 0.9156149535271674
+gamma 0.35992692538652565
+learning_rate 0.9588361706457881
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6003582765916163
+subsample 0.5543561555663336
+
+******************************
+
+metric 0.6267243115825565
+colsample_bytree 0.9358519363114007
+gamma 0.5578161635502823
+learning_rate 0.9200674679914561
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5359311322810385
+subsample 0.590538660875638
+
+******************************
+
+metric 0.5319978570663239
+colsample_bytree 0.9536240083208192
+gamma 0.4786335610166135
+learning_rate 0.8649349776755184
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5601608905894387
+subsample 0.53742563820725
+
+******************************
+
+metric 0.6242528661737918
+colsample_bytree 0.9419927073214776
+gamma 0.42765134808203825
+learning_rate 0.8975185807254005
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7015286716434267
+subsample 0.5689861293584575
+
+******************************
+
+metric 0.515203685845923
+colsample_bytree 0.9321312210363693
+gamma 0.38908507772383066
+learning_rate 0.21184237669231465
+max_depth 2
+min_child_weight 1
+num_parallel_tree 1
+reg_lambda 0.582005047771815
+subsample 0.6060745726144859
+
+******************************
+
+metric 0.7627105968070289
+colsample_bytree 0.9444210642013405
+gamma 0.5245841005427404
+learning_rate 0.9346158372184891
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6451864752625274
+subsample 0.5742877547479562
+
+******************************
+
+metric 0.5339905710918246
+colsample_bytree 0.9766757173814928
+gamma 0.4300434882171765
+learning_rate 0.9787956890450324
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.7065337205067875
+subsample 0.6172403140551812
+
+******************************
+
+metric 0.5358894246223078
+colsample_bytree 0.9238497826764043
+gamma 0.41612073531564175
+learning_rate 0.8972378325118019
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6313552128035197
+subsample 0.584266777719445
+
+******************************
+
+metric 0.6610718954248365
+colsample_bytree 0.9611668670728465
+gamma 0.2852683149649679
+learning_rate 0.993099119028979
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5182815721282606
+subsample 0.5943181614519352
+
+******************************
+
+metric 0.534038358512804
+colsample_bytree 0.9839527535516152
+gamma 0.3388629671153237
+learning_rate 0.965717464926695
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5931389117193697
+subsample 0.5622032815662538
+
+******************************
+
+metric 0.5162520090003214
+colsample_bytree 0.9088847108078946
+gamma 0.47040256343549414
+learning_rate 0.9364799066643744
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6691347502482262
+subsample 0.5435718710463436
+
+******************************
+
+metric 0.6675092681881496
+colsample_bytree 0.9487806212641643
+gamma 0.5067172198704315
+learning_rate 0.9997913791626551
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5064043625715288
+subsample 0.5144783619287219
+
+******************************
+
+metric 0.49999549983927993
+colsample_bytree 0.97126963009841
+gamma 0.5810017286836877
+learning_rate 0.9462404147465941
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4418317487077068
+subsample 0.5145246874632715
+
+******************************
+
+metric 0.6354366227365262
+colsample_bytree 0.993523912849506
+gamma 0.5097981709811241
+learning_rate 0.9958560943873431
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5505494484530558
+subsample 0.5110503554490553
+
+******************************
+
+metric 0.5061281474338369
+colsample_bytree 0.9998063042246196
+gamma 0.4883989099794684
+learning_rate 0.9991359584641235
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5070695858956598
+subsample 0.5304763407461152
+
+******************************
+
+metric 0.5386096646308796
+colsample_bytree 0.9916622181555375
+gamma 0.36890934765580624
+learning_rate 0.1449821532118703
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4838504674125845
+subsample 0.5165756232717741
+
+******************************
+
+metric 0.725029893924783
+colsample_bytree 0.9909569626251274
+gamma 0.46109927558012165
+learning_rate 0.9988684043534765
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5444883783288649
+subsample 0.550618597292373
+
+******************************
+
+metric 0.5238212793314048
+colsample_bytree 0.9812363187870089
+gamma 0.303634782051355
+learning_rate 0.9739017865028964
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.462590808932036
+subsample 0.5077490993950191
+
+******************************
+
+metric 0.620987035251259
+colsample_bytree 0.9667764692009864
+gamma 0.4989750958985446
+learning_rate 0.9867778769171539
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.479529688095736
+subsample 0.5235827133399872
+
+******************************
+
+metric 0.5175411978999249
+colsample_bytree 0.9504582601441127
+gamma 0.5171870885145265
+learning_rate 0.999122462649702
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5016657371979156
+subsample 0.540408857963759
+
+******************************
+
+metric 0.6436852030429658
+colsample_bytree 0.9985083935440496
+gamma 0.5447897091781758
+learning_rate 0.9657214610871535
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5282114780114033
+subsample 0.554502884300888
+
+******************************
+
+metric 0.5014670523947283
+colsample_bytree 0.9779429740235158
+gamma 0.5607476584703711
+learning_rate 0.9586872110209791
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4012845895846478
+subsample 0.5796286487618031
+
+******************************
+
+metric 0.5184714454087646
+colsample_bytree 0.9590694811020309
+gamma 0.44316353565777683
+learning_rate 0.9586330586182933
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.570758090456412
+subsample 0.5563114602150891
+
+******************************
+
+metric 0.6349223186542376
+colsample_bytree 0.9943179990857254
+gamma 0.5456924975814166
+learning_rate 0.9788568438350368
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5342193551819312
+subsample 0.6338728681796628
+
+******************************
+
+metric 0.5465910211078967
+colsample_bytree 0.9700453099714204
+gamma 0.5346655044665392
+learning_rate 0.9136524328648543
+max_depth 10
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5469240070990604
+subsample 0.6140519711429899
+
+******************************
+
+metric 0.6871987570984678
+colsample_bytree 0.9880820264308997
+gamma 0.5081091552511557
+learning_rate 0.9989191859724148
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4255079669544455
+subsample 0.6005526945895572
+
+******************************
+
+metric 0.6494760527161685
+colsample_bytree 0.9567053840552708
+gamma 0.4756198726545055
+learning_rate 0.952635834636956
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5684563524380037
+subsample 0.7674376368757698
+
+******************************
+
+metric 0.5366008786028073
+colsample_bytree 0.9307758914010826
+gamma 0.4054446636156103
+learning_rate 0.09585046565488914
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5162610922240556
+subsample 0.5865143918203503
+
+******************************
+
+metric 0.5686538090646095
+colsample_bytree 0.9808406469561959
+gamma 0.4531983245123157
+learning_rate 0.9376073517012048
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4612974365222171
+subsample 0.5354787475232443
+
+******************************
+
+metric 0.6743983713704059
+colsample_bytree 0.9487934823408881
+gamma 0.3473308779866036
+learning_rate 0.2622303279012964
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5898029123180862
+subsample 0.56415144217705
+
+******************************
+
+metric 0.7376684881602914
+colsample_bytree 0.9629914997359463
+gamma 0.5189437349452594
+learning_rate 0.9792739651600435
+max_depth 3
+min_child_weight 2
+num_parallel_tree 1
+reg_lambda 0.6197681773028164
+subsample 0.572956999122997
+
+******************************
+
+metric 0.6014389799635701
+colsample_bytree 0.9213188414558056
+gamma 0.5838408835243628
+learning_rate 0.9974387556829302
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5548196216155958
+subsample 0.6519942402964628
+
+******************************
+
+metric 0.5331329690346083
+colsample_bytree 0.9852583542234626
+gamma 0.4127960303038045
+learning_rate 0.9654508856241157
+max_depth 7
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6089635864039136
+subsample 0.5497131628040022
+
+******************************
+
+metric 0.6740306439515698
+colsample_bytree 0.9982386699005321
+gamma 0.37851617636724505
+learning_rate 0.927683541790649
+max_depth 8
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4912750907354396
+subsample 0.5202053115610231
+
+******************************
+
+metric 0.6315255544840888
+colsample_bytree 0.9722713312007378
+gamma 0.48887540494101694
+learning_rate 0.9211581603359499
+max_depth 1
+min_child_weight 5
+num_parallel_tree 4
+reg_lambda 0.5302802242139204
+subsample 0.5061624130508536
+
+******************************
+
+metric 0.5577773491910425
+colsample_bytree 0.9361481332430491
+gamma 0.544723708339025
+learning_rate 0.8851436791116704
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4401436855610261
+subsample 0.5317100304519542
+
+******************************
+
+metric 0.6356483445837352
+colsample_bytree 0.913634101975112
+gamma 0.5692130311937088
+learning_rate 0.9982245960726872
+max_depth 1
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.5053828214248497
+subsample 0.5943741484923883
+
+******************************
+
+metric 0.5497359905710918
+colsample_bytree 0.947619404910498
+gamma 0.31891588436659346
+learning_rate 0.8737731321985525
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5783680823980875
+subsample 0.544043182906239
+
+******************************
+
+metric 0.642537233472624
+colsample_bytree 0.9038240896621587
+gamma 0.4429707464966497
+learning_rate 0.9446852460147814
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4701083317439023
+subsample 0.6244867768790802
+
+******************************
+
+metric 0.5475611271831138
+colsample_bytree 0.9534363908691831
+gamma 0.5052059890115692
+learning_rate 0.9156403025679608
+max_depth 2
+min_child_weight 1
+num_parallel_tree 1
+reg_lambda 0.413458085678409
+subsample 0.5131051664156171
+
+******************************
+
+metric 0.6164303010821816
+colsample_bytree 0.8970409625163376
+gamma 0.352371539975447
+learning_rate 0.9732703013218877
+max_depth 3
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5577924944051917
+subsample 0.5590694917338632
+
+******************************
+
+metric 0.6038234222650809
+colsample_bytree 0.9286959374304509
+gamma 0.39151695783983853
+learning_rate 0.9968675105844257
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6052398077995945
+subsample 0.5824819359097244
+
+******************************
+
+metric 0.5447487410264652
+colsample_bytree 0.9998577015444342
+gamma 0.47159562141940975
+learning_rate 0.8588548983143646
+max_depth 3
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.6464654267166341
+subsample 0.6067268911509596
+
+******************************
+
+metric 0.7318422800814315
+colsample_bytree 0.9664149833339091
+gamma 0.4284609053480704
+learning_rate 0.9986965609330941
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6250071635039003
+subsample 0.7383461057721662
+
+******************************
+
+metric 0.5398525661630773
+colsample_bytree 0.9896423028180004
+gamma 0.5377955882787578
+learning_rate 0.9570374793743833
+max_depth 2
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.3805609429404446
+subsample 0.5683619603260762
+
+******************************
+
+metric 0.7030791813993359
+colsample_bytree 0.977051838449639
+gamma 0.5901255127945042
+learning_rate 0.9050158831942168
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.522068656448125
+subsample 0.5010300897545237
+
+******************************
+
+metric 0.5101635058394942
+colsample_bytree 0.9383575114232752
+gamma 0.45344607235701045
+learning_rate 0.9283873208864861
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.45089312518069546
+subsample 0.5315470895814899
+
+******************************
+
+metric 0.6562843672988322
+colsample_bytree 0.9995186429356866
+gamma 0.49405770987180786
+learning_rate 0.8801800076568437
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4979525743775726
+subsample 0.5473707873327114
+
+******************************
+
+metric 0.5217137040608594
+colsample_bytree 0.8896364943596811
+gamma 0.2380830278756379
+learning_rate 0.8485029704948013
+max_depth 5
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.586314886863512
+subsample 0.5190183087924275
+
+******************************
+
+metric 0.6767268831029678
+colsample_bytree 0.9149678284142214
+gamma 0.40878297616165293
+learning_rate 0.9763213366988672
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5383966025481222
+subsample 0.5011998042234664
+
+******************************
+
+metric 0.5341735776277724
+colsample_bytree 0.9454345711131322
+gamma 0.6167299958597967
+learning_rate 0.16144241742619408
+max_depth 2
+min_child_weight 5
+num_parallel_tree 2
+reg_lambda 0.4352260775853499
+subsample 0.5092023748848682
+
+******************************
+
+metric 0.7412679738562092
+colsample_bytree 0.9589979135121152
+gamma 0.5644718280532369
+learning_rate 0.9989855478156785
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.562047027143653
+subsample 0.7204335168500546
+
+******************************
+
+metric 0.5576633451194686
+colsample_bytree 0.9290567933843505
+gamma 0.5241511207804972
+learning_rate 0.960104207403471
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.40279287568939537
+subsample 0.6653993710731544
+
+******************************
+
+metric 0.5217966355941284
+colsample_bytree 0.9718813950039551
+gamma 0.26120275651837954
+learning_rate 0.9397307943431272
+max_depth 6
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6791897873536794
+subsample 0.5580619058151075
+
+******************************
+
+metric 0.6669900353584057
+colsample_bytree 0.9854274841510877
+gamma 0.3714102904982727
+learning_rate 0.8986247971783347
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6532914257513567
+subsample 0.5911019096287922
+
+******************************
+
+metric 0.6767476695596273
+colsample_bytree 0.9050660559330461
+gamma 0.46659121005005544
+learning_rate 0.8688780732340936
+max_depth 3
+min_child_weight 2
+num_parallel_tree 1
+reg_lambda 0.6011159373583317
+subsample 0.6431586165609807
+
+******************************
+
+metric 0.672490946105218
+colsample_bytree 0.9538550928840475
+gamma 0.20854881449473445
+learning_rate 0.8361230557022079
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.4876442080595662
+subsample 0.5755816898751478
+
+******************************
+
+metric 0.5338797814207651
+colsample_bytree 0.9220167478319767
+gamma 0.33405489630032836
+learning_rate 0.9781611051901263
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.3655912185722301
+subsample 0.5363237494255888
+
+******************************
+
+metric 0.6474728383156542
+colsample_bytree 0.9652655532701809
+gamma 0.5113702430834545
+learning_rate 0.9266202451064289
+max_depth 1
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.5198727579863459
+subsample 0.5258881359706759
+
+******************************
+
+metric 0.5583675131254687
+colsample_bytree 0.9403690699243792
+gamma 0.5999336817966258
+learning_rate 0.9990909209961786
+max_depth 2
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.6284995190335603
+subsample 0.6130008200726416
+
+******************************
+
+metric 0.6699579984999463
+colsample_bytree 0.9770243374577258
+gamma 0.4345184827524407
+learning_rate 0.9459563096614593
+max_depth 3
+min_child_weight 1
+num_parallel_tree 1
+reg_lambda 0.4568116345190625
+subsample 0.8553766783301966
+
+******************************
+
+metric 0.7062950819672131
+colsample_bytree 0.9996668841985255
+gamma 0.3087676016399141
+learning_rate 0.9095249315594225
+max_depth 1
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5803214705813495
+subsample 0.5513858161491922
+
+******************************
+
+metric 0.5183252973320476
+colsample_bytree 0.898768206968748
+gamma 0.5548513546252541
+learning_rate 0.9997822855000938
+max_depth 4
+min_child_weight 5
+num_parallel_tree 1
+reg_lambda 0.5433857534238038
+subsample 0.6299397467826703
+
+******************************
+
+metric 0.6532825458052073
+colsample_bytree 0.9908415542145054
+gamma 0.3859966981410856
+learning_rate 0.8898001292543147
+max_depth 2
+min_child_weight 5
+num_parallel_tree 3
+reg_lambda 0.427944922594225
+subsample 0.6893175847219528
+
+******************************
+
+metric 0.7355176256294869
+colsample_bytree 0.9328402199514723
+gamma 0.47838185883215006
+learning_rate 0.9612072188637432
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6691802620419282
+subsample 0.5159136889888148
+
+******************************
+
+metric 0.495748848173149
+colsample_bytree 0.9629286413754067
+gamma 0.36107035151729655
+learning_rate 0.9521188034994711
+max_depth 1
+min_child_weight 4
+num_parallel_tree 2
+reg_lambda 0.605600024736816
+subsample 0.5106650561083207
+
+******************************
+
+metric 0.5515486981677917
+colsample_bytree 0.9508307843793957
+gamma 0.29246758177482335
+learning_rate 0.9755622919463098
+max_depth 2
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.5002301518111201
+subsample 0.5016439677229145
+
+******************************
+
+metric 0.6123672988321012
+colsample_bytree 0.981523110493768
+gamma 0.41400061942266864
+learning_rate 0.8586773527236979
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.478232483079446
+subsample 0.5253973958367948
+
+******************************
+
+metric 0.49923325833065463
+colsample_bytree 0.9112790300177527
+gamma 0.2305511227280249
+learning_rate 0.8325673450572652
+max_depth 9
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.3953911190387051
+subsample 0.5195906509049726
+
+******************************
+
+metric 0.6672664738026357
+colsample_bytree 0.9364014876832649
+gamma 0.40783238142592104
+learning_rate 0.8739869403311364
+max_depth 2
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.46989313077841843
+subsample 0.5622685725645669
+
+******************************
+
+metric 0.6803501553626916
+colsample_bytree 0.9779614200600661
+gamma 0.26366369019055846
+learning_rate 0.812964098886463
+max_depth 1
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.36659753727865485
+subsample 0.5318257645572058
+
+******************************
+
+metric 0.5531588985320904
+colsample_bytree 0.9171024566166868
+gamma 0.3163913230524401
+learning_rate 0.852434385213053
+max_depth 3
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.3401654380288499
+subsample 0.5413093604783451
+
+******************************
+
+metric 0.6697655630558235
+colsample_bytree 0.9469416954562445
+gamma 0.3426030492907504
+learning_rate 0.8095679649956211
+max_depth 2
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.5233386785465493
+subsample 0.5805770410976349
+
+******************************
+
+metric 0.6467474552662595
+colsample_bytree 0.8882524904665545
+gamma 0.2788964161927231
+learning_rate 0.8517482602220096
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.45089955542476295
+subsample 0.5209355054239663
+
+******************************
+
+metric 0.5195859852137577
+colsample_bytree 0.9591334013904659
+gamma 0.4191231668722641
+learning_rate 0.9082582701268916
+max_depth 1
+min_child_weight 3
+num_parallel_tree 1
+reg_lambda 0.42584446981129925
+subsample 0.7044643633730431
+
+******************************
+
+metric 0.5379138540662166
+colsample_bytree 0.9807017226014176
+gamma 0.3852882801371909
+learning_rate 0.8823957681492294
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.47716460795196597
+subsample 0.5646419867151926
+
+******************************
+
+metric 0.526129218900675
+colsample_bytree 0.9329258353800793
+gamma 0.1841869727453724
+learning_rate 0.8236162917918002
+max_depth 2
+min_child_weight 3
+num_parallel_tree 2
+reg_lambda 0.6291302896256719
+subsample 0.5996166348598615
+
+******************************
+
+metric 0.7003769420336441
+*****************************
+best {'colsample_bytree': 0.9328402199514723, 'gamma': 0.47838185883215006, 'learning_rate': 0.9612072188637432, 'max_depth': 1.0, 'min_child_weight': 4.0, 'num_parallel_tree': 1.0, 'reg_lambda': 0.6691802620419282, 'subsample': 0.5159136889888148}
+colsample_bytree 0.9328402199514723
+gamma 0.47838185883215006
+learning_rate 0.9612072188637432
+max_depth 1
+min_child_weight 4
+num_parallel_tree 1
+reg_lambda 0.6691802620419282
+subsample 0.5159136889888148
+
+******************************
+
+metric 0.495748848173149
+GBM(best) 0.495748848173149
+
+Process finished with exit code 0
