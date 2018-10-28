@@ -99,6 +99,28 @@ def tpr_weight_funtion_lc(y_true,y_predict):
     TR2 = pCumsumPer[abs(nCumsumPer-0.005).idxmin()]
     TR3 = pCumsumPer[abs(nCumsumPer-0.01).idxmin()]
     return 'TPR',-(0.4 * TR1 + 0.3 * TR2 + 0.3 * TR3),False
+
+def tpr_weight_funtion_lgb_cv(y_predict,train_data):
+    y_true=train_data.get_label()
+    d = pd.DataFrame()
+    d['prob'] = list(y_predict)
+    d['y'] = list(y_true)
+    d = d.sort_values(['prob'], ascending=[0])
+    y = d.y
+    PosAll = pd.Series(y).value_counts()[1]
+    NegAll = pd.Series(y).value_counts()[0]
+    pCumsum = d['y'].cumsum()
+    nCumsum = np.arange(len(y)) - pCumsum + 1
+    pCumsumPer = pCumsum / PosAll
+    nCumsumPer = nCumsum / NegAll
+    TR1 = pCumsumPer[abs(nCumsumPer-0.001).idxmin()]
+    TR2 = pCumsumPer[abs(nCumsumPer-0.005).idxmin()]
+    TR3 = pCumsumPer[abs(nCumsumPer-0.01).idxmin()]
+    return 'TPR',-(0.4 * TR1 + 0.3 * TR2 + 0.3 * TR3),False
+
+
+
+
 def evalmcc_min(y_true,preds,eps=1e-15, normalize=True, sample_weight=None,
              labels=None):
     labels = y_true

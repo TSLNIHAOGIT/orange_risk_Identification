@@ -1,6 +1,12 @@
 /Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6 /Users/ozintel/Downloads/Tsl_python_progect/local_ml/tianchi_competition/orange_risk_Identification/parameter_tuning.py
 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
   import imp
+
+
+
+字典+两个换行+metric
+
+
 colsample_bytree 0.9644735130151051
 gamma 0.5034517580014662
 learning_rate 0.7146633774246076

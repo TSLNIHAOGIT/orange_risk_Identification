@@ -94,6 +94,8 @@ def GBM(argsDict):
     min_child_weight = int(argsDict["min_child_weight"])
     gamma=argsDict['gamma']
     reg_lambda=argsDict['reg_lambda']
+    reg_alpha=argsDict['reg_alpha']
+
     colsample_bytree=argsDict['colsample_bytree']
     subsample = argsDict["subsample"]
 
@@ -123,6 +125,7 @@ def GBM(argsDict):
                             objective="binary:logistic",
                             gamma=gamma,
                             reg_lambda=reg_lambda,
+                            reg_alpha=reg_alpha,
                             colsample_bytree=colsample_bytree,
                             num_parallel_tree=num_parallel_tree,
                             verbose=2,
@@ -132,11 +135,13 @@ def GBM(argsDict):
 
     for key in argsDict:
         print(key,gbm.get_params()[key])
-    print('\n******************************\n')
+    print('\n\n')
 
     metric = cross_val_score(gbm,X_loc_train,y_loc_train,cv=5,scoring=metric_scores_self,n_jobs=-1).mean()
-    print('metric',-metric)
-    return -metric
+    print('metric',metric)
+    print('\n*****************************\n')
+
+    return metric#mertric最小时，tpr最大
 
 #hp.randint(label, upper) 返回从[0, upper)的随机整数
 space = {
@@ -144,6 +149,7 @@ space = {
          "min_child_weight":hp.quniform("min_child_weight",1,5,1), #
         'gamma':hp.uniform('gamma', 0, 1),
          'reg_lambda':hp.uniform('reg_lambda', 0, 1),
+        'reg_alpha':hp.uniform('reg_alpha', 0, 1),
         'subsample':hp.uniform('subsample', 0.5, 1),
         'colsample_bytree':hp.uniform('colsample_bytree', 0.6, 1),
         'num_parallel_tree':hp.quniform('num_parallel_tree',1,4,1),
@@ -153,9 +159,9 @@ space = {
 
         }
 algo = partial(tpe.suggest,n_startup_jobs=-1)
-best = fmin(GBM,space,algo=algo,max_evals=500)#max_evals表示想要训练的最大模型数量，越大越容易找到最优解
+best = fmin(GBM,space,algo=algo,max_evals=300)#max_evals表示想要训练的最大模型数量，越大越容易找到最优解
 print('*****************************')
-print('best',best)
+print('best\n',best)
 print ('GBM(best)',GBM(best))
 
 
