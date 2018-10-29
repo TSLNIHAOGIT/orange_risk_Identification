@@ -32,6 +32,9 @@ path0='./results/'
 
 test=pd.read_csv(path0+'test_select.csv')
 train=pd.read_csv(path0+'train_select.csv')
+labels=train['Tag']
+
+scale_pos_weight_compute=len(labels[labels==0])/len(labels[labels==1])
 
 
 res = test.loc[:, ['UID']]
@@ -182,7 +185,7 @@ params['subsample'] = subsample
 
 # Define the search space
 space = {
-    'scale_pos_weight':hp.uniform('scale_pos_weight', 1,10),
+    'scale_pos_weight':hp.uniform('scale_pos_weight', 1,2*scale_pos_weight_compute),#不平衡数据集需要设置负样本与正样本之比，；平衡数据集则不用设置
     'class_weight': hp.choice('class_weight', [None, 'balanced']),
     'boosting_type': hp.choice('boosting_type', [{'boosting_type': 'gbdt', 'subsample': hp.uniform('gdbt_subsample', 0.5, 1)},
                                                  {'boosting_type': 'dart', 'subsample': hp.uniform('dart_subsample', 0.5, 1)},
@@ -193,7 +196,7 @@ space = {
     'min_child_samples': hp.quniform('min_child_samples', 20, 500, 5),
     'reg_alpha': hp.uniform('reg_alpha', 0.0, 1.0),
     'reg_lambda': hp.uniform('reg_lambda', 0.0, 1.0),
-    'colsample_bytree': hp.uniform('colsample_by_tree', 0.6, 1.0)
+    'colsample_bytree': hp.uniform('colsample_by_tree', 0.5, 1.0)
 }
 
 

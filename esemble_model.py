@@ -178,24 +178,24 @@ def model_train_predict( train_csr, train_y, predict_csr, predict_result):
     # pd.DataFrame(dataset_blend_test, columns=['lgb_clf', 'rf_clf']).to_csv(path0+'all_model_avg_pred_{}.csv'.format(now),
     #                                                                        index=False)
     #
-    # lr = LogisticRegression(n_jobs=-1)
-    # lr.fit(dataset_blend_train, train_y)
-    # test_pred = lr.predict_proba(dataset_blend_test)[:, 1]
+    lr = LogisticRegression(n_jobs=-1)
+    lr.fit(dataset_blend_train, train_y)
+    test_pred = lr.predict_proba(dataset_blend_test)[:, 1]
 
-    gbc=GradientBoostingClassifier(learning_rate=0.05, subsample=0.9, max_depth=6, n_estimators=2000
-                               ,
-
-                               criterion='friedman_mse',
-                               init=None,
-                               loss='deviance',
-                               max_features=None, max_leaf_nodes=None,
-                               min_impurity_split=1e-07, min_samples_leaf=1,
-                               min_samples_split=2, min_weight_fraction_leaf=0.0,
-                               presort='auto', random_state=4,
-                               verbose=0, warm_start=False
-                               )
-    gbc.fit(dataset_blend_train, train_y)
-    test_pred = gbc.predict_proba(dataset_blend_test)[:, 1]
+    # gbc=GradientBoostingClassifier(learning_rate=0.05, subsample=0.9, max_depth=6, n_estimators=2000
+    #                            ,
+    #
+    #                            criterion='friedman_mse',
+    #                            init=None,
+    #                            loss='deviance',
+    #                            max_features=None, max_leaf_nodes=None,
+    #                            min_impurity_split=1e-07, min_samples_leaf=1,
+    #                            min_samples_split=2, min_weight_fraction_leaf=0.0,
+    #                            presort='auto', random_state=4,
+    #                            verbose=0, warm_start=False
+    #                            )
+    # gbc.fit(dataset_blend_train, train_y)
+    # test_pred = gbc.predict_proba(dataset_blend_test)[:, 1]
 
 
 

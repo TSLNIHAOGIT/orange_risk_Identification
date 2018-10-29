@@ -71,6 +71,10 @@ path0='./results/'
 test=pd.read_csv(path0+'test_select.csv')
 train=pd.read_csv(path0+'train_select.csv')
 
+labels=train['Tag']
+
+scale_pos_weight_compute=len(labels[labels==0])/len(labels[labels==1])
+
 
 res = test.loc[:, ['UID']]
 y_loc_train = train['Tag'].values
@@ -186,7 +190,7 @@ def objective(params, n_folds=N_FOLDS):
 
 #hp.randint(label, upper) 返回从[0, upper)的随机整数
 space = {
-      'scale_pos_weight':hp.uniform('scale_pos_weight', 1,10),
+      'scale_pos_weight':hp.uniform('scale_pos_weight', 1,2*scale_pos_weight_compute),
        "max_depth":hp.quniform("max_depth",1,15,1),
          "min_child_weight":hp.quniform("min_child_weight",1,5,1), #
         'gamma':hp.uniform('gamma', 0, 1),
@@ -218,7 +222,7 @@ global  ITERATION
 ITERATION = 0
 
 algo = partial(tpe.suggest,n_startup_jobs=-1)
-best = fmin(objective,space,algo=algo,max_evals=300)#max_evals表示想要训练的最大模型数量，越大越容易找到最优解
+best = fmin(objective,space,algo=algo,max_evals=MAX_EVALS)#max_evals表示想要训练的最大模型数量，越大越容易找到最优解
 print('*****************************')
 print('best\n',best)
 
