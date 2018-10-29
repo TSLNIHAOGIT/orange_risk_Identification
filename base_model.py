@@ -34,22 +34,20 @@ from feature_selector.feature_selector import  FeatureSelector
 import ast
 
 info_g=['code2_sum', 'code2', 'ip2_sum', 'ip2_sub_sum', 'ip2', 'ip2_sub', 'code1_sum', 'device1_x', 'code1', 'device2_x', 'device_code2_sum_y', 'mac1_sum_y', 'device_code1_sum_y', 'device1_y', 'device2_y', 'mac1_sum_x', 'device_code2_y', 'mac1_x', 'market_code_sum', 'market_type_sum', 'mac1_y', 'device_code1_y', 'geo_code_y', 'acc_id3_sum', 'acc_id2_sum', 'device_code3_sum_y', 'market_code', 'market_type', 'wifi_sum', 'wifi', 'version', 'device_code3_sum_x', 'device_code3_x', 'acc_id3', 'acc_id2', 'device_code2_sum_x', 'device_code2_x', 'device_code3_y', 'channel', 'geo_code_sum_y', 'device_code1_x', 'geo_code_x', 'mac2_sum', 'mac2', 'device_code1_sum_x', 'os', 'geo_code_sum_x', 'trans_type1', 'trans_type2', 'ip1_sub_y', 'ip1_y', 'amt_src2', 'amt_src1', 'device1_sum_y', 'mode', 'o_t_days', 'ip1_sub_x', 'merchant', 'ip1_x', 'acc_id1', 'acc_id1_sum', 'device2_sum_y', 'ip1_sum_y', 'ip1_sub_sum_y', 'day_y', 'channel_sum', 'amt_src1_sum', 'merchant_sum', 'trans_type1_sum', 'bal', 'amt_src2_sum', 'trans_type2_sum', 'device2_sum_x', 'trans_amt', 'day_x', 'mode_sum', 'os_sum', 'success']
+path0='./results/'
 
+test=pd.read_csv(path0+'test_select.csv')
+train=pd.read_csv(path0+'train_select.csv')
 
-# test=pd.read_csv('test.csv')
-# train=pd.read_csv('train.csv')
-
-test=pd.read_csv('test.csv')
-train=pd.read_csv('train.csv')
-
-
+scale_pos_weight=len(train[train['Tag']==0])/len(train[train['Tag']==1])
+print('scale_pos_weight',scale_pos_weight)
 def get_best_params():
-    results = pd.read_csv('results/gbm_trials0.csv')
+    results = pd.read_csv('params_results/gbm_trials_temp.csv')
 
     # Sort with best scores on top and reset index for slicing
     results.sort_values('loss', ascending=True, inplace=True)
     results.reset_index(inplace=True, drop=True)
-    print('results.head()', results.head())
+    print('params_results.head()', results.head())
 
 
 
@@ -65,12 +63,7 @@ def get_best_params():
 
 
 
-# path='/Users/ozintel/Downloads/Tsl_python_progect/local_ml/kaggle_competition/kaggle_competition_datas/sweet_orange/orange_data'
-# label_train=pd.read_csv(os.path.join(path,"tag_TRAIN.csv"),dtype=str)
-# test=pd.read_csv('test_cross_feature.csv')
-# train=pd.read_csv('train_cross_feature.csv')
-# train=pd.merge(label_train,train,how='left',on='UID')
-# #填充缺失值
+
 
 #不填充时效果好，0.987945148966871
 
@@ -81,72 +74,29 @@ print(train.info())
 res = test.loc[:, ['UID']]
 
 y_loc_train = train['Tag'].values
-X_loc_train = train.drop(['UID','Tag'],axis=1)
+X_loc_train = train.drop(['UID','Tag'],axis=1).values
 
-X_loc_test = test.drop('UID',axis=1)
+X_loc_test = test.drop('UID',axis=1).values
 
-##特征选择
-print('开始特征选择')
-t1=time.time()
-
-fs = FeatureSelector(data = X_loc_train, labels = y_loc_train)
-fs.identify_all(selection_params = {'missing_threshold': 0.7,
- 'correlation_threshold': 0.99,
- 'task': 'classification',
- 'eval_metric': tpr_weight_funtion_lc,
- 'cumulative_importance': 0.999})
-
-left_feature,removed_feature = fs.remove(methods = ['missing', 'single_unique', 'collinear', 'zero_importance', 'low_importance'],keep_one_hot =True)
-
-X_loc_train = left_feature.values
-X_loc_test = X_loc_test.drop(labels=removed_feature,axis=1).values
 
 
 
 #################################################################
-# # lgb.LGBMClassifier()
-# feature_select=RFE(estimator=RandomForestClassifier(n_estimators=500,
-#                  criterion="gini",
-#                  max_depth=8,
-#                  min_samples_split=2,
-#                  min_samples_leaf=1,
-#                  min_weight_fraction_leaf=0.,
-#                  max_features="auto",
-#                  max_leaf_nodes=None,
-#                  min_impurity_split=1e-7,
-#                  bootstrap=True,
-#                  oob_score=False,
-#                  n_jobs=-1,
-#                  random_state=None,
-#                  verbose=0,
-#                  warm_start=False,
-#                  class_weight=None), n_features_to_select=int(X_loc_train.shape[1] * 0.80))
-# feature_select.fit(X_loc_train, y_loc_train)
-# X_loc_train = feature_select.transform(X_loc_train)
-# X_loc_test = feature_select.transform(X_loc_test)
 
 
-# ig=IG(X_loc_train, y_loc_train)
-# info_gain=ig.getIG()
-# print(sorted(info_gain,reverse=True))
-# # print(iris.data)
-# select_feature_name=ig.select_feature(X_loc_train,info_gain,0.95)
-# X_loc_train = X_loc_train[select_feature_name].values
-# X_loc_test = X_loc_test[select_feature_name].values
 
 
-# t2=time.time()
-# print('特征选择结束,耗时{}'.format(t2-t1))
-# print('特征选择后shape',X_loc_train.shape )
-
-# X_loc_train = X_loc_train.values
-# X_loc_test = X_loc_test.values
 
 if __name__=='__main__':
 
     best_estimators,best_params=get_best_params()
-    model=lgb.LGBMClassifier(n_estimators=best_estimators, n_jobs=-1,
-                       objective='binary', random_state=50, **best_params)
+    model=lgb.LGBMClassifier(
+                        n_estimators=best_estimators,
+                         n_jobs=-1,
+                       objective='binary', random_state=50, **best_params,
+                        # is_unbalance = True,
+                        # scale_pos_weight=scale_pos_weight
+    )
 
     # 模型部分
     # model = lgb.LGBMClassifier(boosting_type='gbdt', num_leaves=48, max_depth=-1, learning_rate=0.02, n_estimators=2000,
@@ -182,8 +132,9 @@ if __name__=='__main__':
                               eval_names =['train','valid'],
                               eval_metric=tpr_weight_funtion_lc,
                               eval_set=[(X_loc_train[train_index], y_loc_train[train_index]),
-                                        (X_loc_train[test_index], y_loc_train[test_index])],early_stopping_rounds=100
+                                        (X_loc_train[test_index], y_loc_train[test_index])],early_stopping_rounds=100000
                               )
+        print('lgb_model',lgb_model)
         baseloss.append(lgb_model.best_score_['valid']['TPR'])
         loss += lgb_model.best_score_['valid']['TPR']
         test_pred= lgb_model.predict_proba(X_loc_test, num_iteration=lgb_model.best_iteration_)[:, 1]
@@ -229,7 +180,7 @@ if __name__=='__main__':
     print('mean:',mean)
     now = datetime.datetime.now()
     now = now.strftime('%m-%d-%H-%M')
-    res[['UID', 'Tag']].to_csv("lgb_baseline_%s_fs_yu.csv" % now, index=False)
+    res[['UID', 'Tag']].to_csv(path0+"lgb_baseline_%s_fs_yu.csv" % now, index=False)
     # pd.DataFrame(data=dataset_blend_train,columns=['val_yu']).to_csv('val_yu_{}_.csv'.format(now), index=False)
 
 
@@ -292,4 +243,20 @@ TPR: [-0.830718954248366, -0.7758169934640522, -0.7767973856209149, -0.710163934
 
 #new feature select,early stopping
 TPR: [-0.8209150326797385, -0.7875816993464053, -0.765032679738562, -0.7491803278688525, -0.8131147540983606] -0.7871648987463838
+
+feature select,params_tune,no early stopping
+TPR: [-0.8326797385620914, -0.7787581699346404, -0.781045751633987, -0.6681967213114755, -0.8226229508196721] -0.7766606664523733
+
+#early stoping x线上效果更差 ，不应该用early stoping
+TPR: [-0.8254901960784313, -0.7986928104575164, -0.7967320261437909, -0.739344262295082, -0.8327868852459017] -0.7986092360441445
+
+#scale_pos_weight=7.78
+TPR: [-0.7624183006535947, -0.7699346405228757, -0.7774509803921568, -0.7163934426229508, -0.8321311475409836] -0.7716657023465123
+#scale_pos_weight用的精确值
+TPR: [-0.792483660130719, -0.773202614379085, -0.8019607843137255, -0.7118032786885246, -0.841639344262295] -0.7842179363548698
+#is_unbalance=True
+TPR: [-0.7784313725490197, -0.7699346405228757, -0.8019607843137255, -0.7163934426229508, -0.8170491803278688] -0.7767538840672881
+
+#与调参数对应
+TPR: [-0.8339869281045751, -0.7866013071895426, -0.7686274509803921, -0.7098360655737705, -0.8242622950819672] -0.7846628093860495
 '''

@@ -1,13 +1,14 @@
 import pandas as pd
+path0='./results/'
 #只有basefeature是带有tag可以直接使用的
 
-df_train_base_feature=pd.read_csv('train_base_feature.csv')
-df_train_cross_feature=pd.read_csv('train_cross_feature.csv')
-df_test_base_feature=pd.read_csv('test_base_feature.csv')
-df_test_cross_feature=pd.read_csv('test_cross_feature.csv')
+df_train_base_feature=pd.read_csv(path0+'train_base_feature.csv')
+df_train_cross_feature=pd.read_csv(path0+'train_cross_feature.csv')
+df_test_base_feature=pd.read_csv(path0+'test_base_feature.csv')
+df_test_cross_feature=pd.read_csv(path0+'test_cross_feature.csv')
 
-df_train_two_level_feature=pd.read_csv('train_two_level_feature.csv')
-df_test_two_level_feature=pd.read_csv('test_two_level_feature.csv')
+df_train_two_level_feature=pd.read_csv(path0+'train_two_level_feature.csv')
+df_test_two_level_feature=pd.read_csv(path0+'test_two_level_feature.csv')
 
 
 train=pd.merge(df_train_base_feature,df_train_cross_feature,how='left',on='UID')
@@ -20,8 +21,8 @@ test=pd.merge(test,df_test_two_level_feature,how='left',on='UID')
 
 test=test.drop(['days_rate'],axis=1)
 
-train.to_csv('train.csv',index=False)
-test.to_csv('test.csv',index=False)
+train.to_csv(path0+'train.csv',index=False)
+test.to_csv(path0+'test.csv',index=False)
 
 '''
 train.columns Index(['UID', 'Tag', 'day_x', 'success', 'mode', 'os', 'version', 'device1_x',

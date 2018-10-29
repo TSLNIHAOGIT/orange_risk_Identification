@@ -3,6 +3,7 @@ import sklearn.model_selection
 import os
 import numpy as np
 path='/Users/ozintel/Downloads/Tsl_python_progect/local_ml/kaggle_competition/kaggle_competition_datas/sweet_orange/orange_data'
+path0='./results/'
 o_train=pd.read_csv(os.path.join(path,"operation_TRAIN.csv"),dtype=str)
 t_train=pd.read_csv(os.path.join(path,"transaction_TRAIN.csv"),dtype=str)
 o_test=pd.read_csv(os.path.join(path,"operation_round1.csv"),dtype=str)
@@ -61,22 +62,22 @@ dict_t=dict([(each,'count') for each in t_count_var]+[(each,'sum') for each in t
 print('t_train')
 t_train[t_sum_var]=t_train[t_sum_var].astype(np.float)
 df_ttrain_user=t_train.groupby('UID').agg(dict_t).reset_index()
-# df_ttrain_user).to_csv('t_train_user.csv',index=False)
+# df_ttrain_user).to_csv(path0+'t_train_user.csv',index=False)
 
 print('o_train')
 o_train[o_sum_var]=o_train[o_sum_var].astype(np.float)
 df_otrain_user=o_train.groupby('UID').agg(dict_o).reset_index()
-# df_otrain_user.to_csv('o_train_user.csv',index=False)
+# df_otrain_user.to_csv(path0+'o_train_user.csv',index=False)
 
 print('t_test')
 t_test[t_sum_var]=t_test[t_sum_var].astype(np.float)
 df_ttest_user=t_test.groupby('UID').agg(dict_t).reset_index()
-# df_ttest_user.to_csv('t_test_user.csv',index=False)
+# df_ttest_user.to_csv(path0+'t_test_user.csv',index=False)
 
 print('o_test')
 o_test[o_sum_var]=o_test[o_sum_var].astype(np.float)
 df_otest_user=o_test.groupby('UID').agg(dict_o).reset_index()
-# df_otest_user.to_csv('o_test_user.csv',index=False)
+# df_otest_user.to_csv(path0+'o_test_user.csv',index=False)
 
 
 
@@ -90,12 +91,12 @@ df_otest_user=o_test.groupby('UID').agg(dict_o).reset_index()
 print('train')
 train=pd.merge(label_train,df_otrain_user,how='left',on='UID')
 train=pd.merge(train,df_ttrain_user,how='left',on='UID')
-train.to_csv('train_base_feature.csv',index=False)
+train.to_csv(path0+'train_base_feature.csv',index=False)
 
 # o_test_user=pd.read_csv('o_test_user.csv')
 # t_test_user=pd.read_csv('t_test_user.csv')
 print('test')
 test=pd.merge(df_otest_user,df_ttest_user,how='outer',on='UID')
-test.to_csv('test_base_feature.csv',index=False)
+test.to_csv(path0+'test_base_feature.csv',index=False)
 
 

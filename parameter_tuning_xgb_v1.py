@@ -159,6 +159,7 @@ space = {
 
         }
 algo = partial(tpe.suggest,n_startup_jobs=-1)
+#将space作为params传给gbm训练
 best = fmin(GBM,space,algo=algo,max_evals=300)#max_evals表示想要训练的最大模型数量，越大越容易找到最优解
 print('*****************************')
 print('best\n',best)

@@ -35,9 +35,9 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.naive_bayes import BernoulliNB,GaussianNB
 from sklearn.svm import SVC
 from evaluation import tpr_weight_funtion_self,tpr_weight_funtion_lc,tpr_weight_funtion2
-
-test=pd.read_csv('test.csv')
-train=pd.read_csv('train.csv')
+path0='./results/'
+test=pd.read_csv(path0+'test.csv')
+train=pd.read_csv(path0+'train.csv')
 #填充缺失值
 test=test.fillna(-1)
 train=train.fillna(-1)
@@ -175,7 +175,7 @@ def model_train_predict( train_csr, train_y, predict_csr, predict_result):
     print('模型开始融合训练')
     # now = datetime.datetime.now()
     # now = now.strftime('%m-%d-%H-%M')
-    # pd.DataFrame(dataset_blend_test, columns=['lgb_clf', 'rf_clf']).to_csv('all_model_avg_pred_{}.csv'.format(now),
+    # pd.DataFrame(dataset_blend_test, columns=['lgb_clf', 'rf_clf']).to_csv(path0+'all_model_avg_pred_{}.csv'.format(now),
     #                                                                        index=False)
     #
     # lr = LogisticRegression(n_jobs=-1)
@@ -219,7 +219,7 @@ def model_train_predict( train_csr, train_y, predict_csr, predict_result):
     predict_result['Tag'] = test_pred  ##########
     now = datetime.datetime.now()
     now = now.strftime('%m-%d-%H-%M')
-    predict_result[['UID', 'Tag']].to_csv("lgb_stacking%s.csv" % now, index=False)
+    predict_result[['UID', 'Tag']].to_csv(path0+"lgb_stacking%s.csv" % now, index=False)
     print(predict_result.head())
 
     # stack每次对train中的预测之后将预测结果放回相应的行,和原来的y对应

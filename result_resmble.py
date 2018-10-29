@@ -38,7 +38,7 @@ import os
 # id =test
 # predict_result=id
 # print(y,id)
-
+path='./results/'
 class resemble(object):
     def simple_add_weight(self):
         # (xi：0.55;yu:0.45)
@@ -61,7 +61,7 @@ class resemble(object):
             lambda row:0.85*row['Tag_x']+0.15*row['Tag_y'],axis=1)
         now = datetime.datetime.now()
         now = now.strftime('%m-%d-%H-%M')
-        df[['UID','Tag']].to_csv('ensmble_fs_{}.csv'.format(now),index=False)
+        df[['UID','Tag']].to_csv(path+'ensmble_fs_{}.csv'.format(now),index=False)
         print(df.head())
 
     def harmonic_average(self):
@@ -82,7 +82,7 @@ class resemble(object):
             lambda row: 2/(1/row['Tag_x'] +  1/row['Tag_y']), axis=1)
         now = datetime.datetime.now()
         now = now.strftime('%m-%d-%H-%M')
-        df[['UID', 'Tag']].to_csv('ensmble_fs_{}.csv'.format(now), index=False)
+        df[['UID', 'Tag']].to_csv(path+'ensmble_fs_{}.csv'.format(now), index=False)
         print(df.head())
         df1_xi=pd.read_csv('ensmble_fs_10-15-08-11.csv')#lgb_baseline_09-29-16-16.csv
         df2_yu=pd.read_csv('ensmble_fs_10-15-14-19.csv')
@@ -101,7 +101,7 @@ class resemble(object):
             lambda row:0.55*row['Tag_x']+0.45*row['Tag_y'],axis=1)
         now = datetime.datetime.now()
         now = now.strftime('%m-%d-%H-%M')
-        df[['UID','Tag']].to_csv('ensmble_fs_harm{}.csv'.format(now),index=False)
+        df[['UID','Tag']].to_csv(path+'ensmble_fs_harm{}.csv'.format(now),index=False)
         print(df.head())
 
 
@@ -126,7 +126,7 @@ class resemble(object):
     #     res=lr.predict_proba(pred_all)[:, 1]
     #     predict_result['Tag']=res
     #     print(predict_result.head())
-    #     predict_result.to_csv('two_data_and_models_stacking.csv',index=False)
+    #     predict_result.to_csv(path+'two_data_and_models_stacking.csv',index=False)
     #     pass
     # def avg_pred_add_weight(self):
     #     #lgb_clf,rf_clf
@@ -135,7 +135,7 @@ class resemble(object):
     #     res_add_weight=res[['lgb_clf','rf_clf']].apply(
     #         lambda row:0.85*row['lgb_clf']+0.15*row['rf_clf'],axis=1)
     #     predict_result['Tag'] = res_add_weight
-    #     predict_result.to_csv('avg_pred_add_weight.csv', index=False)
+    #     predict_result.to_csv(path+'avg_pred_add_weight.csv', index=False)
 
 
 
